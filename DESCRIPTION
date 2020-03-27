@@ -1,0 +1,25 @@
+Package: rulexicon
+Type: Package
+Title: Russian Lexicons for Text Analysis
+Description: A data package containing a collection of lexicons, polarity tables, words lists, lemmatization tables and etc. for text analysis in Russian language.
+Version: 0.1.0
+Date: 2019-08-24
+Maintainer: Dmitriy O. Afanasyev <dmafanasyev@gmail.com>
+Authors@R: c(
+    person("Dmitriy O.", "Afanasyev", email = "dmafanasyev@gmail.com", role = c("aut", "cre", "cph")),
+    person("Elena A.", "Fedorova", email = "ecolena@mail.ru", role = c("dtc", "cph")),
+    person("Igor S.", "Demin", email = "ig.demin@gmail.com", role = c("dtc", "cph")),
+    person("Sergei", "Koltcov (LINIS Crowd SENT)", role = c("dtc", "cph")),
+    person("Olessia", "Koltsova (LINIS Crowd SENT)", role = c("dtc", "cph")),
+    person("Svetlana", "Alexeeva (LINIS Crowd SENT)", role = c("dtc", "cph")),
+    person("Natalia", "Loukachevitch (RuSentiLex)", role = c("dtc", "cph")),
+    person("Anatoly", "Levchik (RuSentiLex)", role = c("dtc", "cph"))
+    )
+Depends: R (>= 3.5.0)
+Imports: dplyr, data.table, readxl
+License: GPL (>=2)
+URL: https://github.com/dmafanasyev/rulexicon
+BugReports: https://github.com/dmafanasyev/rulexicon/issues
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.0

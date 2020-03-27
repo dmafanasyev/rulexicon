@@ -1,0 +1,18 @@
+
+year <- "2019"
+link <- "https://ssrn.com/abstract=..."
+
+citHeader("To cite the R package 'rulexicon' in publications use:")
+
+citEntry(entry = "manual",
+         title = "TODO",
+         author = personList(person("FirstName","LastName"),
+                             person("FirstName","LastName")),
+         url = link,
+         year = year,
+         textVersion =
+           paste("FirstName LastName, FirstName LastName and FirstName LastName (", year,"). ",
+                 "Paper title ",
+                 paste("Available at: ", link), ".", sep = "")
+)
+
