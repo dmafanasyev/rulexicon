@@ -79,7 +79,7 @@
 <div class="page-header"><h1 class="hasAnchor">
 <a href="#rulexicon" class="anchor"></a>rulexicon</h1></div>
 <!-- badges: start -->
-<!-- badges: end -->
+
 <p>An R data package containing a collection of Russian lexicons, polarity tables, words lists, lemmatization tables and etc. for text analysis.</p>
 <p>Package web site: <a href="https://dmafanasyev.github.io/rulexicon/index.html">rulexicon</a></p>
 <div id="installation" class="section level2">
@@ -95,6 +95,71 @@ install.packages("rulexicon")
 <p>You can install the development version from <a href="https://github.com/">GitHub</a> with:</p>
 <div class="sourceCode" id="cb1"><pre class="r"><span class="co"># install.packages("devtools")</span>
 <span class="kw pkg">devtools</span><span class="kw ns">::</span><span class="fu"><a href="https://rdrr.io/pkg/devtools/man/remote-reexports.html">install_github</a></span>(<span class="st">"dmafanasyev/rulexicon"</span>)</pre></div>
+</div>
+<div id="naming-convention" class="section level2">
+<h2 class="hasAnchor">
+<a href="#naming-convention" class="anchor"></a>Naming convention</h2>
+<p>The naming convention based on idea of <a href="https://github.com/cran/lexicon">lexicon</a> package, and help to categorize the data types.</p>
+<table class="table">
+<thead><tr class="header">
+<th>
+<p>Prefix</p>
+</th>
+<th>
+<p>Description</p>
+</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td>
+<p><code>key_</code></p>
+</td>
+<td>
+<p>A <code>data.frame</code> with a lookup and return value</p>
+</td>
+</tr>
+<tr class="even">
+<td>
+<p><code>hash_</code></p>
+</td>
+<td>
+<p>A keyed <code>data.table</code> hash table</p>
+</td>
+</tr>
+<tr class="odd">
+<td>
+<p><code>hash_lemmas</code></p>
+</td>
+<td>
+<p>A lemmatization hash table</p>
+</td>
+</tr>
+<tr class="even">
+<td>
+<p><code>hash_sentiment</code></p>
+</td>
+<td>
+<p>A polarity (sentiment) hash table</p>
+</td>
+</tr>
+<tr class="odd">
+<td>
+<p><code>profanity_</code></p>
+</td>
+<td>
+<p>A profane words <code>vector</code></p>
+</td>
+</tr>
+<tr class="even">
+<td>
+<p><code>sw_</code></p>
+</td>
+<td>
+<p>A stopword <code>vector</code></p>
+</td>
+</tr>
+</tbody>
+</table>
 <!--
 ## Example
 
@@ -162,7 +227,13 @@ In that case, don't forget to commit and push the resulting figure files, so the
 </ul>
 </div>
 
-  </div>
+  <div class="dev-status">
+<h2>Dev status</h2>
+<ul class="list-unstyled">
+<li><a href="http://www.repostatus.org/#active"><img src="http://www.repostatus.org/badges/0.1.0/active.svg" alt="Project Status: Active - The project has reached a stable, usable state and is being actively developed."></a></li>
+</ul>
+</div>
+</div>
 </div>
 
 

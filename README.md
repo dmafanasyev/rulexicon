@@ -5,6 +5,9 @@
 
 <!-- badges: start -->
 
+[![Project Status: Active - The project has reached a stable, usable
+state and is being actively
+developed.](http://www.repostatus.org/badges/0.1.0/active.svg)](http://www.repostatus.org/#active)
 <!-- badges: end -->
 
 An R data package containing a collection of Russian lexicons, polarity
@@ -30,6 +33,136 @@ You can install the development version from
 # install.packages("devtools")
 devtools::install_github("dmafanasyev/rulexicon")
 ```
+
+## Naming convention
+
+The naming convention based on idea of
+[lexicon](https://github.com/cran/lexicon) package, and help to
+categorize the data types.
+
+<table>
+
+<thead>
+
+<tr class="header">
+
+<th>
+
+Prefix
+
+</th>
+
+<th>
+
+Description
+
+</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr class="odd">
+
+<td>
+
+<code>key\_</code>
+
+</td>
+
+<td>
+
+A <code>data.frame</code> with a lookup and return value
+
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td>
+
+<code>hash\_</code>
+
+</td>
+
+<td>
+
+A keyed <code>data.table</code> hash table
+
+</td>
+
+</tr>
+
+<tr class="odd">
+
+<td>
+
+<code>hash\_lemmas</code>
+
+</td>
+
+<td>
+
+A lemmatization hash table
+
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td>
+
+<code>hash\_sentiment</code>
+
+</td>
+
+<td>
+
+A polarity (sentiment) hash table
+
+</td>
+
+</tr>
+
+<tr class="odd">
+
+<td>
+
+<code>profanity\_</code>
+
+</td>
+
+<td>
+
+A profane words <code>vector</code>
+
+</td>
+
+</tr>
+
+<tr class="even">
+
+<td>
+
+<code>sw\_</code>
+
+</td>
+
+<td>
+
+A stopword <code>vector</code>
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 <!--
 ## Example

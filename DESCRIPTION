@@ -18,7 +18,7 @@ Authors@R: c(
 Depends: R (>= 3.5.0)
 Imports: dplyr, data.table, readxl
 License: GPL (>=2)
-URL: https://dmafanasyev.github.io/rulexicon/
+URL: https://dmafanasyev.github.io/rulexicon/, https://github.com/dmafanasyev/rulexicon/
 BugReports: https://github.com/dmafanasyev/rulexicon/issues
 Encoding: UTF-8
 LazyData: true
