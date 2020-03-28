@@ -48,5 +48,5 @@ rsconnect/
 # RAW data directory
 data-raw/
 
-# Additional directories
-articles/
+# pkgdown website config
+_pkgdown.yml
