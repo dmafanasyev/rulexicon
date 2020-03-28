@@ -2,4 +2,6 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^README\.Rmd$
-^articles$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$

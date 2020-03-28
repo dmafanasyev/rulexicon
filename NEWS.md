@@ -1,8 +1,4 @@
-NEWS
-====
-
-Versioning
-----------
+## Versioning
 
 Releases will be numbered with the following semantic versioning format:
 
@@ -16,12 +12,10 @@ And constructed with the following guidelines:
   (and resets the patch)
 * Bug fixes and misc changes bumps the patch
 
-rulexicon 0.1.0 (2020-03-27)
-----------------------------------------------------------------
+# rulexicon 0.1.0 (2020-03-27)
 
-NEW FEATURES
-
-The inital version of package. This include next russian lexicons, polarity tables, lemmatization tables and etc.:
+## New Features
+This is the first release of rulexicon package. This include next russian lexicons, polarity tables, lemmatization tables and etc.:
 
 * `hash_lemmas_opencorpora`	        Lemmatization Table based on OpenCorpora Morphological Dictionary
 * `hash_product_senti_rus`	        Opinion Orientation Probability Table of Lexicon ProductSentiRus
