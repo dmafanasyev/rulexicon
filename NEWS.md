@@ -7,13 +7,13 @@ Releases will be numbered with the following semantic versioning format:
 And constructed with the following guidelines:
 
 * Breaking backward compatibility bumps the major (and resets the minor and patch)
-* New additions without breaking backward compatibility bumps the minor   (and resets the patch)
+* New additions without breaking backward compatibility bumps the minor (and resets the patch)
 * Bug fixes and misc changes bumps the patch
 
 # rulexicon 0.1.0 (2020-03-27)
 
 ## New Features
-This is the first release of rulexicon package. This include following Russian lexicons, polarity tables, lemmatization tables and etc.:
+This is the first release of rulexicon package contained following Russian lexicons, polarity tables, lemmatization tables and etc.:
 
 * `hash_lemmas_opencorpora`	        Lemmatization Table based on OpenCorpora Morphological Dictionary
 * `hash_product_senti_rus`	        Opinion Orientation Probability Table of Lexicon ProductSentiRus
