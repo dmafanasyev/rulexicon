@@ -1,4 +1,4 @@
-title <- "{An R package 'rulexicon': Russian lexicons for text analysis"
+title <- "An R package 'rulexicon': Russian lexicons for text analysis"
 year <- "2020"
 author <- "Dmitriy O. Afanasyev"
 authorTxt <- "Afanasyev, D.O."
