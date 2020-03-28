@@ -1,18 +1,16 @@
+title <- "{An R package 'rulexicon': Russian lexicons for text analysis"
+year <- "2020"
+author <- "Dmitriy O. Afanasyev"
+authorTxt <- "Afanasyev, D.O."
+url <- "https://dmafanasyev.github.io/rulexicon/"
 
-year <- "2019"
-link <- "https://ssrn.com/abstract=..."
-
-citHeader("To cite the R package 'rulexicon' in publications use:")
+citHeader("To cite the R package 'rulexicon' in publications, please use:")
 
 citEntry(entry = "manual",
-         title = "TODO",
-         author = personList(person("FirstName","LastName"),
-                             person("FirstName","LastName")),
-         url = link,
-         year = year,
-         textVersion =
-           paste("FirstName LastName, FirstName LastName and FirstName LastName (", year,"). ",
-                 "Paper title ",
-                 paste("Available at: ", link), ".", sep = "")
+    title = title,
+    author = author,
+    year = year,
+    url = url,
+    textVersion  = paste(authorTxt, " (", year, "). ", title, ". ", "Available at: ", url)
 )
 
