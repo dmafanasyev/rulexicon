@@ -1,7 +1,7 @@
 Package: rulexicon
 Type: Package
 Title: Russian Lexicons for Text Analysis
-Description: An R data package containing a collection of lexicons, polarity tables, words lists, lemmatization tables and etc. for text analysis in Russian language.
+Description: An R data package containing a collection of Russian lexicons, polarity tables, words lists, lemmatization tables and etc. for text analysis.
 Version: 0.1.0
 Date: 2019-08-24
 Maintainer: Dmitriy O. Afanasyev <dmafanasyev@gmail.com>

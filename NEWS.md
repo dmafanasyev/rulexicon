@@ -13,7 +13,7 @@ And constructed with the following guidelines:
 # rulexicon 0.1.0 (2020-03-27)
 
 ## New Features
-This is the first release of rulexicon package. This include next russian lexicons, polarity tables, lemmatization tables and etc.:
+This is the first release of rulexicon package. This include following Russian lexicons, polarity tables, lemmatization tables and etc.:
 
 * `hash_lemmas_opencorpora`	        Lemmatization Table based on OpenCorpora Morphological Dictionary
 * `hash_product_senti_rus`	        Opinion Orientation Probability Table of Lexicon ProductSentiRus

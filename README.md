@@ -7,9 +7,11 @@
 
 <!-- badges: end -->
 
-A data package containing a collection of lexicons, polarity tables,
-words lists, lemmatization tables and etc. for text analysis in Russian
-language.
+An R data package containing a collection of Russian lexicons, polarity
+tables, words lists, lemmatization tables and etc. for text analysis.
+
+Package web site:
+[rulexicon](https://dmafanasyev.github.io/rulexicon/index.html)
 
 ## Installation
 
