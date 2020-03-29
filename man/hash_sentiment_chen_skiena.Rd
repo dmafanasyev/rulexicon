@@ -11,8 +11,7 @@
     \item{score}{the sentiment score: −1 for negative, 1 for positive}
 }}
 \source{
-\url{http://bit.ly/1iwOMZb} - negative words list,
-\url{http://bit.ly/1rAqgfb} - positive words list
+\url{http://bit.ly/1iwOMZb} - negative words list, \url{http://bit.ly/1rAqgfb} - positive words list
 }
 \usage{
 data(hash_sentiment_chen_skiena)

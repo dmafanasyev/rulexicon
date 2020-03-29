@@ -31,6 +31,5 @@
 #' Multilingualsentiment project web-page: \url{https://sites.google.com/site/datascienceslab/projects/multilingualsentiment}
 #'
 #' @source
-#' \url{http://bit.ly/1iwOMZb} - negative words list,
-#' \url{http://bit.ly/1rAqgfb} - positive words list
+#' \url{http://bit.ly/1iwOMZb} - negative words list, \url{http://bit.ly/1rAqgfb} - positive words list
 NULL

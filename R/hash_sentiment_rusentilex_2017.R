@@ -18,6 +18,7 @@
 #'    \item the "positive/negative" sentiment (indefinite, depends on the context) was deleted for security;
 #'    \item the positive sentiment was mapped to +1 score, the negative sentiment - to -1 score, the neutral - to 0 score.
 #'  }
+#'  Also some minor mistakes of the original lexicon table was fixed by \code{\pkg{rulexicon}} package maintainer.
 #'
 #' @format A data table with \Sexpr{nrow(rulexicon::hash_sentiment_rusentilex_2017)} rows
 #' and \Sexpr{ncol(rulexicon::hash_sentiment_rusentilex_2017)} variables:

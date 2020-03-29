@@ -12,7 +12,7 @@
 #'
 #' @details The lexicon is aimed at detecting sentiment in blogs and social media related to social and political issues.
 #' Words sentiment scores assessed by volunteers (at least three). Source file provides raw scores (from each volunteers) and
-#' were averaged and rounded to the nearest integer by maintainer of \pkg{rulexicon} package.
+#' were averaged and rounded to the nearest integer by maintainer of \code{\pkg{rulexicon}} package.
 #'
 #' @format A data table with \Sexpr{nrow(rulexicon::hash_sentiment_linis_crowd_2016)} rows
 #' and \Sexpr{ncol(rulexicon::hash_sentiment_linis_crowd_2016)} variables:

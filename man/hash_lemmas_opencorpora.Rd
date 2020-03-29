@@ -18,7 +18,7 @@ data(hash_lemmas_opencorpora)
 }
 \description{
 A lemmatization table generated from filtered OpenCorpora morphological dictionary. This table can be useful for simple and fast
- "word form-to-lemma" replacement, for exmaple using \code{\link{lemmatize_strings}} from \pkg{textstem} package.
+ "word form-to-lemma" replacement, for exmaple using \code{lemmatize_strings} from \code{\pkg{textstem}} package.
  Table contains \Sexpr{nrow(rulexicon::hash_lemmas_opencorpora)} words forms of
  \Sexpr{length(unique(rulexicon::hash_lemmas_opencorpora$lemma))} lemmas.
 }

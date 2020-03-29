@@ -12,7 +12,7 @@ Complex source, see References
 data(sw_nltk_ru)
 }
 \description{
-A dataset containing a character vector of stopwords based on Python's \pkg{NLTK} library augmented by Michail Kalinskiy using
+A dataset containing a character vector of stopwords based on Python's \code{\pkg{NLTK}} library augmented by Michail Kalinskiy using
  filtered stopwords-ru list.
 }
 \section{License}{

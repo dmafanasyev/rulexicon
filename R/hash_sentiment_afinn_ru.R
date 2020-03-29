@@ -1,7 +1,7 @@
 #' Polarity Table of Translated AFINN Based Lexicon
 #'
-#'  The polarity table of AFINN-111 based lexicon translated by Roman Yudin (Node.js package \pkg{SentiMental}) and
-#'  augmented by Alexey Romanov from Text Machine Lab team (Python library \pkg{Sentimental}).
+#'  The polarity table of AFINN-111 based lexicon translated by Roman Yudin (Node.js package \code{\pkg{SentiMental}}) and
+#'  augmented by Alexey Romanov from Text Machine Lab team (Python library \code{\pkg{Sentimental}}).
 #'  Table contains \Sexpr{nrow(rulexicon::hash_sentiment_afinn_ru)} words with non-neutral sentiment scores.
 #'
 #' @docType data
@@ -9,8 +9,8 @@
 #' @usage data(hash_sentiment_afinn_ru)
 #' @keywords datasets
 #'
-#' @details The augmentation of Text Machine Lab team add words having fractional scores while original AFINN lexicon
-#' assigns to words only integer scores. The duplicated words was removed by \pkg{rulexicon} maintainer.
+#' @details The augmentation of Text Machine Lab team is the words having fractional scores while original AFINN lexicon
+#' assigns to words only integer scores. The duplicated words was removed by \code{\pkg{rulexicon}} maintainer.
 #'
 #' @format A data table with \Sexpr{nrow(rulexicon::hash_sentiment_afinn_ru)} rows
 #' and \Sexpr{ncol(rulexicon::hash_sentiment_afinn_ru)} variables:

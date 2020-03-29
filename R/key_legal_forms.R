@@ -1,6 +1,6 @@
 #' Firms Legal Forms Dictionary
 #'
-#'  A dataset containing a dictionary of firms legal forms names and abbreviations.
+#'  A dataset containing a dictionary of firms legal forms.
 #'
 #' @docType data
 #' @name key_legal_forms

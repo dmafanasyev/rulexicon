@@ -18,7 +18,7 @@ and \Sexpr{ncol(rulexicon::key_legal_forms)} variables:
 data(key_legal_forms)
 }
 \description{
-A dataset containing a dictionary of firms legal forms names and abbreviations.
+A dataset containing a dictionary of firms legal forms.
 }
 \section{License}{
 

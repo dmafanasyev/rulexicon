@@ -19,7 +19,9 @@ data(hash_valence_shifters_ru)
 }
 \description{
 A table containing a valence shifters words that can alter a polarized word's meaning.
- The dataset is based on \code{\link{list_valence_shifters}} (\pkg{sentometrics} package)
- filtered version of English words list that was translated via Google Translate to Russian language.
+}
+\details{
+The dataset is based on \code{\link{list_valence_shifters}} from \code{\pkg{sentometrics}} package (only English words)
+that was filtered and translated via Google Translate to Russian language.
 }
 \keyword{datasets}

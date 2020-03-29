@@ -13,7 +13,7 @@ data(profanity_bally)
 }
 \description{
 A dataset containing a character vector of profane words from LiveJournal user bally_36
- augmented by maintainer of \pkg{rulexicon} package using additional list from www.spy-soft.net user IVO.
+ augmented by maintainer of \code{\pkg{rulexicon}} package using additional list from www.spy-soft.net user IVO.
 }
 \section{License}{
 

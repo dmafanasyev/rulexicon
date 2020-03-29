@@ -1,8 +1,6 @@
 #' Russian Valence Shifters Table
 #'
 #'  A table containing a valence shifters words that can alter a polarized word's meaning.
-#'  The dataset is based on \code{\link{list_valence_shifters}} (\pkg{sentometrics} package)
-#'  filtered version of English words list that was translated via Google Translate to Russian language.
 #'
 #' @docType data
 #' @name hash_valence_shifters_ru
@@ -16,6 +14,9 @@
 #'     \item{y}{shifting coefficient}
 #'     \item{t}{the type of valence shifter: 1 = negators, 2 = amplifiers, 3 = deamplifiers}
 #' }
+#'
+#' @details The dataset is based on \code{\link{list_valence_shifters}} from \code{\pkg{sentometrics}} package (only English words)
+#' that was filtered and translated via Google Translate to Russian language.
 #'
 #' @source \code{\link{list_valence_shifters}}
 NULL
