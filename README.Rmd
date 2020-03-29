@@ -8,37 +8,18 @@ output: github_document
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
-  fig.path = "man/figures/README-",
+  fig.path = "man/figures/",
   out.width = "100%"
 )
 ```
-
-# rulexicon
+  
+# rulexicon <img src="man/figures/logo.png" align="right" width="136px"/>
 
 <!-- badges: start -->
 [![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/0.1.0/active.svg)](http://www.repostatus.org/#active)
 <!-- badges: end -->
 
 An R data package containing a collection of Russian lexicons, polarity tables, words lists, lemmatization tables and etc. for text analysis.
-
-Package web site: [rulexicon](https://dmafanasyev.github.io/rulexicon/index.html)
-
-## Installation
-
-<!--
-You can install the released version of rulexicon from [CRAN](https://CRAN.R-project.org) with:
-
-``` r
-install.packages("rulexicon")
-```
--->
-
-You can install the development version from [GitHub](https://github.com/) with:
-
-``` r
-# install.packages("devtools")
-devtools::install_github("dmafanasyev/rulexicon")
-```
 
 ## Naming convention
 
@@ -61,12 +42,12 @@ The naming convention based on idea of [lexicon](https://github.com/cran/lexicon
 <td>A keyed <code>data.table</code> hash table</td>
 </tr>
 <tr class="odd">
-<td><code>hash_lemmas</code></td>
+<td><code>hash_lemmas_</code></td>
 <td>A lemmatization hash table</td>
 </tr>
 <tr class="even">
-<td><code>hash_sentiment</code></td>
-<td>A polarity (sentiment) hash table</td>
+<td><code>hash_sentiment_</code></td>
+<td>A sentiment polarity hash table</td>
 </tr>
 <tr class="odd">
 <td><code>profanity_</code></td>
@@ -79,6 +60,25 @@ The naming convention based on idea of [lexicon](https://github.com/cran/lexicon
 </tbody>
 </table>
 
+
+## Installation
+
+<!--
+You can install the released version of rulexicon from [CRAN](https://CRAN.R-project.org) with:
+
+``` r
+install.packages("rulexicon")
+```
+-->
+
+You can install the development version from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("dmafanasyev/rulexicon")
+```
+
+
 <!--
 ## Example
 
@@ -88,20 +88,4 @@ This is a basic example which shows you how to solve a common problem:
 library(rulexicon)
 ## basic example code
 ```
-
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
-
-```{r cars}
-summary(cars)
-```
-
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date.
-
-You can also embed plots, for example:
-
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub!
 -->
