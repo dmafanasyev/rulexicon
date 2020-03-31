@@ -12,8 +12,8 @@ Complex source, see References
 data(sw_nltk_ru)
 }
 \description{
-A dataset containing a character vector of stopwords based on Python's \code{\pkg{NLTK}} library augmented by Michail Kalinskiy using
- filtered stopwords-ru list.
+A dataset containing a character vector of stopwords based on Python's \code{NLTK} library augmented by Michail Kalinskiy using
+ filtered \code{stopwords-ru} list.
 }
 \section{License}{
 
@@ -21,11 +21,11 @@ The Python's NLTK library and JavaScript's stopwords-iso NPM package stopwords l
 }
 
 \references{
-Python's NLTK library stopwords list: \url{https://github.com/mitmedialab/DataBasic/blob/master/nltk_data/corpora/stopwords/russian}
+Python's NLTK library \code{stopwords} list: \url{https://github.com/mitmedialab/DataBasic/blob/master/nltk_data/corpora/stopwords/russian}
 
-JavaScript's stopwords-iso NPM package stopwords list: \url{https://github.com/stopwords-iso/stopwords-ru}
+JavaScript's \code{stopwords-iso} NPM package stopwords list: \url{https://github.com/stopwords-iso/stopwords-ru}
 
-Filtered by Michail Kalinskiy vesrion of JavaScript's stopwords-iso NPM package stopwords list:
+Filtered by Michail Kalinskiy vesrion of JavaScript's \code{stopwords-iso} NPM package stopwords list:
 \url{https://dev.kmint21.info/posts/python-summa}
 }
 \keyword{datasets}
