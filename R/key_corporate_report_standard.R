@@ -1,8 +1,7 @@
-#' Corporate Report Standard Dictionary of Demin and Fedorova
+#' Global Reporting Initiative Standards Dictionary augmented by Fedorova, Khrustova and Demin
 #'
-#'  A dataset containing Demin and Fedorova's corporate report standard dictionary: an economic taxonomy that can be used
-#'  to verify compliance of public company reports with the corporate reporting standard defined in legislative act No. 123.
-#'  This dictionary can also be used for thematic analysis of company reports.
+#'  A dataset containing Fedorova, Khrustova and Demin's corporate report standard dictionary: an economic taxonomy
+#'  to verify compliance of public company reports with Global Reporting Initiative (GRI) Standards.
 #'
 #' @docType data
 #' @name key_corporate_report_standard
@@ -19,17 +18,24 @@
 #'     \item{regex}{regular expression for all word forms of the token}
 #' }
 #'
-#' @details The functions of the package \pkg{base} for pattern matching using regular expression (grep, regexpr, etc.) do not work correct
-#' for the Russian letter \code{"ч"}, which is why regular expressions like \code{"\bч"} do not lead to the expected results. For a correct matching,
-#' use the package \pkg{stringr} and its functions (for example, \code{str_extract_all}), where this bug is fixed.
+#' @details
+#' The dictionary is based on Global Reporting Initiative Standards glossary (\url{https://www.globalreporting.org/standards/})
+#' augmented by Fedorova, Khrustova and Demin in the following:
+#' \itemize{
+#'    \item terms of general nature were deleted
+#'    \item terms were extended and aligned with the terminology of Russian companies reports
+#'    \item glossary were supplemented by additional topics and related terms: sponsorship, social responsibility, innovativeness, technology
+#'    \item synonyms and different word forms were added as universal regular expression
+#'  }
+#' The dictionary can be used to verify compliance of public company reports with GRI Standards,
+#' as well as for thematic analysis of company reports.
 #'
 #' @section License:
 #' The dictionary is published under Creative Commons "Attribution-NonCommercial-ShareAlike" 4.0 International License (CC BY-NC-SA 4.0).
-#' For additional permissions (including for commercial applications) please contact to lexicon creators:
-#' Igor Demin <ig.demin@gmail.com> and Elena Fedorova <ecolena@mail.ru>
+#' For additional permissions (including for commercial applications) please contact to Elena Fedorova <ecolena@mail.ru>.
 #'
 #' @references
-#' TBD
+#' Fedorova, E.A. Khrustova, L.E. Demin I.S. (2020). The impact of the completeness of non-financial information disclosure by Russian companies on their investment attractiveness. Russian Management Journal 18(1).
 #'
-#' @source TBD
+#' @source \url{https://www.globalreporting.org/standards/gri-standards-download-center/}
 NULL
