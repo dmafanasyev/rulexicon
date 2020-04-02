@@ -36,3 +36,5 @@ _pkgdown.yml
 /pkgdown
 # Package build ignore rules
 .Rbuildignore
+# R environment variables
+.Renviron

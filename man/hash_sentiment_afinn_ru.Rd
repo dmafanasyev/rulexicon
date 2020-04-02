@@ -17,13 +17,13 @@ and \Sexpr{ncol(rulexicon::hash_sentiment_afinn_ru)} variables:
 data(hash_sentiment_afinn_ru)
 }
 \description{
-The polarity table of AFINN-111 based lexicon translated by Roman Yudin (Node.js package \code{\pkg{SentiMental}}) and
- augmented by Alexey Romanov from Text Machine Lab team (Python library \code{\pkg{Sentimental}}).
+The polarity table of AFINN-111 based lexicon translated by Roman Yudin (Node.js package \pkg{SentiMental}) and
+ augmented by Alexey Romanov from Text Machine Lab team (Python library \pkg{Sentimental}).
  Table contains \Sexpr{nrow(rulexicon::hash_sentiment_afinn_ru)} words with non-neutral sentiment scores.
 }
 \details{
 The augmentation of Text Machine Lab team is the words having fractional scores while original AFINN lexicon
-assigns to words only integer scores. The duplicated words was removed by \code{\pkg{rulexicon}} maintainer.
+assigns to words only integer scores. The duplicated words was removed by \pkg{rulexicon} maintainer.
 }
 \section{License}{
 

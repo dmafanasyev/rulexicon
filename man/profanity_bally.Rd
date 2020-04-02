@@ -13,12 +13,12 @@ data(profanity_bally)
 }
 \description{
 A dataset containing a character vector of profane words from LiveJournal user bally_36
- augmented by maintainer of \code{\pkg{rulexicon}} package using additional list from www.spy-soft.net user IVO.
+ augmented by maintainer of \pkg{rulexicon} package using additional list from www.spy-soft.net user IVO.
 }
 \section{License}{
 
 There is no license informations provided by LiveJournal user bally_36 or www.spy-soft.net user IVO explicitly.
-But content was published for free reusage.
+But content was published for free re-usage.
 }
 
 \references{

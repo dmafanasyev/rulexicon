@@ -3,7 +3,7 @@
 \docType{data}
 \name{sw_nltk_ru}
 \alias{sw_nltk_ru}
-\title{Stopwrods List of Python's NLTK Library (augmented)}
+\title{Stopwords List of Python's NLTK Library (augmented)}
 \format{A character vector with \Sexpr{length(rulexicon::sw_nltk_ru)} elements.}
 \source{
 Complex source, see References
@@ -25,7 +25,7 @@ Python's NLTK library \code{stopwords} list: \url{https://github.com/mitmedialab
 
 JavaScript's \code{stopwords-iso} NPM package stopwords list: \url{https://github.com/stopwords-iso/stopwords-ru}
 
-Filtered by Michail Kalinskiy vesrion of JavaScript's \code{stopwords-iso} NPM package stopwords list:
+Filtered by Michail Kalinskiy version of JavaScript's \code{stopwords-iso} NPM package stopwords list:
 \url{https://dev.kmint21.info/posts/python-summa}
 }
 \keyword{datasets}

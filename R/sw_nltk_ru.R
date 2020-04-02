@@ -1,4 +1,4 @@
-#' Stopwrods List of Python's NLTK Library (augmented)
+#' Stopwords List of Python's NLTK Library (augmented)
 #'
 #'  A dataset containing a character vector of stopwords based on Python's \code{NLTK} library augmented by Michail Kalinskiy using
 #'  filtered \code{stopwords-ru} list.
@@ -18,7 +18,7 @@
 #'
 #' JavaScript's \code{stopwords-iso} NPM package stopwords list: \url{https://github.com/stopwords-iso/stopwords-ru}
 #'
-#' Filtered by Michail Kalinskiy vesrion of JavaScript's \code{stopwords-iso} NPM package stopwords list:
+#' Filtered by Michail Kalinskiy version of JavaScript's \code{stopwords-iso} NPM package stopwords list:
 #' \url{https://dev.kmint21.info/posts/python-summa}
 #'
 #' @source Complex source, see References

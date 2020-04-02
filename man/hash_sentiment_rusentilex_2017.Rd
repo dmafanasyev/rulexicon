@@ -24,14 +24,14 @@ The polarity table of filtered general Russian sentiment lexicon - RuSentiLex, v
 }
 \details{
 The polarity table was generated from original lexicon table (see \code{\link{hash_rusentilex_2017}}) based on
-the folowing rules:
+the following rules:
  \itemize{
-   \item only first occurrence of unique lemmatized token was used (anothers duplicated tokens which has different emotion source and
+   \item only first occurrence of unique lemmatized token was used (another duplicated tokens which has different emotion source and
    sense was deleted);
    \item the "positive/negative" sentiment (indefinite, depends on the context) was deleted for security;
    \item the positive sentiment was mapped to +1 score, the negative sentiment - to -1 score, the neutral - to 0 score.
  }
- Also some minor mistakes of the original lexicon table was fixed by \code{\pkg{rulexicon}} package maintainer.
+ Also some minor mistakes of the original lexicon table was fixed by \pkg{rulexicon} package maintainer.
 }
 \section{License}{
 

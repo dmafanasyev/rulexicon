@@ -18,4 +18,4 @@ This is the first release of rulexicon package contained following Russian lexic
 * `key_nonfinance_report_standard`  - Non-financial Information Disclosure Dictionary of Fedorova, Khrustova and Demin (GRI based)
 * `key_legal_forms`	                - Firms Legal Forms Dictionary
 * `profanity_bally`	                - Profane Words List of bally_36 LiveJournal user
-* `sw_nltk_ru`	                    - Stopwrods List of Python's NLTK Library (augmented)
+* `sw_nltk_ru`	                    - Stopwords List of Python's NLTK Library (augmented)
