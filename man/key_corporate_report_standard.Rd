@@ -3,15 +3,15 @@
 \docType{data}
 \name{key_corporate_report_standard}
 \alias{key_corporate_report_standard}
-\title{Global Reporting Initiative Standards Dictionary augmented by Fedorova, Khrustova and Demin}
+\title{Non-financial Information Disclosure Dictionary of Fedorova, Khrustova and Demin (GRI based)}
 \format{A data frame with \Sexpr{nrow(rulexicon::key_corporate_report_standard)} rows
 and \Sexpr{ncol(rulexicon::key_corporate_report_standard)} variables:
 \describe{
-    \item{order}{order number of section in report}
-    \item{section}{name of report section}
+    \item{order}{number of report's section (area) order}
+    \item{section}{name of report's section (area)}
     \item{main_token}{main or grouping token (term)}
-    \item{token}{token (term), this can be equal to main_token}
-    \item{regex}{regular expression for all word forms of the token}
+    \item{token}{token (term), this is equal to \code{main_token}, or synonym of the main (grouping) token}
+    \item{regex}{regular expression for all word forms of the \code{token}}
 }}
 \source{
 \url{https://www.globalreporting.org/standards/gri-standards-download-center/}
@@ -20,20 +20,21 @@ and \Sexpr{ncol(rulexicon::key_corporate_report_standard)} variables:
 data(key_corporate_report_standard)
 }
 \description{
-A dataset containing Fedorova, Khrustova and Demin's corporate report standard dictionary: an economic taxonomy
- to verify compliance of public company reports with Global Reporting Initiative (GRI) Standards.
+A dataset containing the dictionary (taxonomy) for non-financial information disclosure estimation. The dictionary is based on
+ Global Reporting Initiative Standards (GRI, \url{https://www.globalreporting.org/standards/}), augmented by Fedorova, Khrustova and Demin's.
 }
 \details{
 The dictionary is based on Global Reporting Initiative Standards glossary (\url{https://www.globalreporting.org/standards/})
 augmented by Fedorova, Khrustova and Demin in the following:
 \itemize{
    \item terms of general nature were deleted
-   \item terms were extended and aligned with the terminology of Russian companies reports
-   \item glossary were supplemented by additional topics and related terms: sponsorship, social responsibility, innovativeness, technology
+   \item terms were extended and aligned with the terminology of Russian companies' reports
+   \item glossary was supplemented by additional topics and related terms: sponsorship, social responsibility, innovativeness, technology
    \item synonyms and different word forms were added as universal regular expression
  }
-The dictionary can be used to verify compliance of public company reports with GRI Standards,
-as well as for thematic analysis of company reports.
+The taxonomy can be used to verify compliance of public company reports with GRI Standards,
+non-financial information disclosure estimation, as well as for thematic analysis of company reports.
+See References for details of usage.
 }
 \section{License}{
 
