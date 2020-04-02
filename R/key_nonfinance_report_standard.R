@@ -1,15 +1,16 @@
 #' Non-financial Information Disclosure Dictionary of Fedorova, Khrustova and Demin (GRI based)
 #'
-#'  A dataset containing the dictionary (taxonomy) for non-financial information disclosure estimation. The dictionary is based on
+#'  A dataset containing the dictionary (taxonomy) for non-financial information disclosure estimation based on
 #'  Global Reporting Initiative Standards (GRI, \url{https://www.globalreporting.org/standards/}), augmented by Fedorova, Khrustova and Demin's.
+#'  Table contains \Sexpr{nrow(rulexicon::key_nonfinance_report_standard)} words and phrases.
 #'
 #' @docType data
-#' @name key_corporate_report_standard
-#' @usage data(key_corporate_report_standard)
+#' @name key_nonfinance_report_standard
+#' @usage data(key_nonfinance_report_standard)
 #' @keywords datasets
 #'
-#' @format A data frame with \Sexpr{nrow(rulexicon::key_corporate_report_standard)} rows
-#' and \Sexpr{ncol(rulexicon::key_corporate_report_standard)} variables:
+#' @format A data frame with \Sexpr{nrow(rulexicon::key_nonfinance_report_standard)} rows
+#' and \Sexpr{ncol(rulexicon::key_nonfinance_report_standard)} variables:
 #' \describe{
 #'     \item{order}{number of report's section (area) order}
 #'     \item{section}{name of report's section (area)}
@@ -33,10 +34,10 @@
 #'
 #' @section License:
 #' The dictionary is published under Creative Commons "Attribution-NonCommercial-ShareAlike" 4.0 International License (CC BY-NC-SA 4.0).
-#' For additional permissions (including for commercial applications) please contact to Elena Fedorova <ecolena@mail.ru>.
+#' For additional permissions (including the commercial use) please contact to Elena Fedorova <ecolena@mail.ru>.
 #'
 #' @references
-#' Fedorova, E.A. Khrustova, L.E. Demin I.S. (2020). The impact of the completeness of non-financial information disclosure by Russian companies on their investment attractiveness. Russian Management Journal 18(1).
+#' Fedorova, E.A. Khrustova, L.E. Demin I.S. (2020). The impact of the completeness of non-financial information disclosure by Russian companies on investment attractiveness. Russian Management Journal 18(1). Forthcoming.
 #'
 #' @source \url{https://www.globalreporting.org/standards/gri-standards-download-center/}
 NULL

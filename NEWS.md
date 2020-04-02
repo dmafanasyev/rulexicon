@@ -15,7 +15,7 @@ This is the first release of rulexicon package contained following Russian lexic
 * `hash_sentiment_rusentilex_2016`	- Polarity Table of General Russian Sentiment Lexicon RuSentiLex 2016
 * `hash_sentiment_rusentilex_2017`	- Polarity Table of General Russian Sentiment Lexicon RuSentiLex 2017
 * `hash_valence_shifters_ru`	      - Russian Valence Shifters Table  
-* `key_corporate_report_standard`	  - Global Reporting Initiative Standards Dictionary augmented by Fedorova, Khrustova and Demin
+* `key_nonfinance_report_standard`  - Non-financial Information Disclosure Dictionary of Fedorova, Khrustova and Demin (GRI based)
 * `key_legal_forms`	                - Firms Legal Forms Dictionary
 * `profanity_bally`	                - Profane Words List of bally_36 LiveJournal user
 * `sw_nltk_ru`	                    - Stopwrods List of Python's NLTK Library (augmented)
