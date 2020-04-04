@@ -17,6 +17,7 @@ Authors@R: c(
     person("Anatoly", "Levchik (RuSentiLex)", role = c("dtc", "cph"))
     )
 Depends: R (>= 3.5.0)
+Imports: data.table
 License: GPL (>=2)
 URL: https://dmafanasyev.github.io/rulexicon/, https://github.com/dmafanasyev/rulexicon/
 BugReports: https://github.com/dmafanasyev/rulexicon/issues

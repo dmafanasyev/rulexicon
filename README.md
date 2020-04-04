@@ -17,7 +17,7 @@ tables, words lists, lemmatization tables and etc. for text analysis.
 
 ## Naming convention
 
-The naming convention based on idea of
+The naming convention based on the idea of
 [lexicon](https://github.com/cran/lexicon) package, and help to
 categorize the data types.
 
@@ -136,6 +136,22 @@ A profane words <code>vector</code>
 <td>
 
 A stopword <code>vector</code>
+
+</td>
+
+</tr>
+
+<tr class="odd">
+
+<td>
+
+<code>freq\_</code>
+
+</td>
+
+<td>
+
+A <code>data.table</code> of terms with frequencies
 
 </td>
 

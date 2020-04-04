@@ -24,40 +24,44 @@ An R data package containing a collection of Russian lexicons, polarity tables, 
 
 ## Naming convention
 
-The naming convention based on idea of [lexicon](https://github.com/cran/lexicon) package, and help to categorize the data types.
+The naming convention based on the idea of [lexicon](https://github.com/cran/lexicon) package, and help to categorize the data types.
 
 <table>
 <thead>
-<tr class="header">
-<th>Prefix</th>
-<th>Description</th>
-</tr>
+  <tr class="header">
+    <th>Prefix</th>
+    <th>Description</th>
+  </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td><code>key_</code></td>
-<td>A <code>data.frame</code> with a lookup and return value</td>
-</tr>
-<tr class="even">
-<td><code>hash_</code></td>
-<td>A keyed <code>data.table</code> hash table</td>
-</tr>
-<tr class="odd">
-<td><code>hash_lemmas_</code></td>
-<td>A lemmatization hash table</td>
-</tr>
-<tr class="even">
-<td><code>hash_sentiment_</code></td>
-<td>A sentiment polarity hash table</td>
-</tr>
-<tr class="odd">
-<td><code>profanity_</code></td>
-<td>A profane words <code>vector</code></td>
-</tr>
-<tr class="even">
-<td><code>sw_</code></td>
-<td>A stopword <code>vector</code></td>
-</tr>
+  <tr class="odd">
+    <td><code>key_</code></td>
+    <td>A <code>data.frame</code> with a lookup and return value</td>
+  </tr>
+  <tr class="even">
+    <td><code>hash_</code></td>
+    <td>A keyed <code>data.table</code> hash table</td>
+  </tr>
+  <tr class="odd">
+    <td><code>hash_lemmas_</code></td>
+    <td>A lemmatization hash table</td>
+  </tr>
+  <tr class="even">
+    <td><code>hash_sentiment_</code></td>
+    <td>A sentiment polarity hash table</td>
+  </tr>
+  <tr class="odd">
+    <td><code>profanity_</code></td>
+    <td>A profane words <code>vector</code></td>
+  </tr>
+  <tr class="even">
+    <td><code>sw_</code></td>
+    <td>A stopword <code>vector</code></td>
+  </tr>
+  <tr class="odd">
+    <td><code>freq_</code></td>
+    <td>A <code>data.table</code> of terms with frequencies</td>
+  </tr>
 </tbody>
 </table>
 
