@@ -1,3 +1,11 @@
+# rulexicon 0.1.1 (2020-04-05)
+
+## New Features
+The following frequencies table was added:
+
+* `freq_first_names`                - Frequent Russian First Names
+* `freq_last_names`                 - Frequent Russian Last Names
+
 # rulexicon 0.1.0 (2020-03-27)
 
 ## New Features
