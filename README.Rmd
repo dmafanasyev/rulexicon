@@ -20,7 +20,7 @@ knitr::opts_chunk$set(
 [![Lifecycle: maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
 <!-- badges: end -->
 
-An R data package containing a collection of Russian lexicons, polarity tables, words lists, lemmatization tables and etc. for text analysis.
+An R data package containing a collection of Russian lexicons, polarity tables, stop words lists, lemmatization tables and etc. for text analysis.
 
 ## Naming convention
 

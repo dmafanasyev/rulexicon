@@ -13,7 +13,8 @@ maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www
 <!-- badges: end -->
 
 An R data package containing a collection of Russian lexicons, polarity
-tables, words lists, lemmatization tables and etc. for text analysis.
+tables, stop words lists, lemmatization tables and etc. for text
+analysis.
 
 ## Naming convention
 
