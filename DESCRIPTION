@@ -3,7 +3,7 @@ Type: Package
 Title: Russian Lexicons for Text Analysis
 Description: An R data package containing a collection of Russian lexicons, polarity tables, words lists, lemmatization tables and etc. for text analysis.
 Version: 0.1.1
-Date: 2019-08-24
+Date: 2020-04-05
 Maintainer: Dmitriy O. Afanasyev <dmafanasyev@gmail.com>
 Authors@R: c(
     person("Dmitriy O.", "Afanasyev", email = "dmafanasyev@gmail.com", role = c("aut", "cre", "dtc", "cph"), comment = c(ORCID = "0000-0003-1692-5166")),
@@ -14,7 +14,9 @@ Authors@R: c(
     person("Olessia", "Koltsova (LINIS Crowd SENT)", role = c("dtc", "cph")),
     person("Svetlana", "Alexeeva (LINIS Crowd SENT)", role = c("dtc", "cph")),
     person("Natalia", "Loukachevitch (RuSentiLex)", role = c("dtc", "cph")),
-    person("Anatoly", "Levchik (RuSentiLex)", role = c("dtc", "cph"))
+    person("Anatoly", "Levchik (RuSentiLex)", role = c("dtc", "cph")),
+    person("Anatoly", "Zhuravlev (Russian Last Names)", role = c("dtc", "cph")),
+    person("", "Administration of the Civil Status Registration Office of Moscow (Russian First Names)", role = c("dtc", "cph"))
     )
 Depends: R (>= 3.5.0)
 Imports: data.table

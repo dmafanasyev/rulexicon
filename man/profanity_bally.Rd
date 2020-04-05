@@ -17,7 +17,7 @@ A dataset containing a character vector of profane words from LiveJournal user b
 }
 \section{License}{
 
-There is no license informations provided by LiveJournal user bally_36 or www.spy-soft.net user IVO explicitly.
+There are no license informations provided by LiveJournal user bally_36 or www.spy-soft.net user IVO explicitly.
 But content was published for free re-usage.
 }
 

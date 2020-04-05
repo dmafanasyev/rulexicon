@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Frequent Russian First Names — freq_first_names • rulexicon</title>
+<title>Frequencies Table of Russian First Names — freq_first_names • rulexicon</title>
 
 <!-- favicons -->
 <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -46,8 +46,8 @@
 
 
 
-<meta property="og:title" content="Frequent Russian First Names — freq_first_names" />
-<meta property="og:description" content="A dataset containing the most frequent Russian first names in Moscow region from 01.2015 to 03.2020." />
+<meta property="og:title" content="Frequencies Table of Russian First Names — freq_first_names" />
+<meta property="og:description" content="A dataset containing the most frequent Russian first names in Moscow from January 2015 to  March 2020." />
 <meta property="og:image" content="/logo.png" />
 
 
@@ -129,13 +129,13 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Frequent Russian First Names</h1>
+    <h1>Frequencies Table of Russian First Names</h1>
     <small class="dont-index">Source: <a href='https://github.com/dmafanasyev/rulexicon/blob/master/R/freq_first_names.R'><code>R/freq_first_names.R</code></a></small>
     <div class="hidden name"><code>freq_first_names.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>A dataset containing the most frequent Russian first names in Moscow region from 01.2015 to 03.2020.</p>
+    <p>A dataset containing the most frequent Russian first names in Moscow from January 2015 to  March 2020.</p>
     </div>
 
     <pre class="usage"><span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span>(<span class='no'>freq_first_names</span>)</pre>
@@ -154,14 +154,24 @@ and 3
 </dl>
     <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
 
-    <p><a href='https://data.mos.ru/opendata/7704111479-svedeniya-o-naibolee-populyarnyh-mujskih-imenah-sredi-novorojdennyh'>https://data.mos.ru/opendata/7704111479-svedeniya-o-naibolee-populyarnyh-mujskih-imenah-sredi-novorojdennyh</a>
-<a href='https://data.mos.ru/opendata/7704111479-svedeniya-o-naibolee-populyarnyh-jenskih-imenah-sredi-novorojdennyh'>https://data.mos.ru/opendata/7704111479-svedeniya-o-naibolee-populyarnyh-jenskih-imenah-sredi-novorojdennyh</a></p>
+    <p><a href='https://data.mos.ru/opendata/7704111479-svedeniya-o-naibolee-populyarnyh-mujskih-imenah-sredi-novorojdennyh'>https://data.mos.ru/opendata/7704111479-svedeniya-o-naibolee-populyarnyh-mujskih-imenah-sredi-novorojdennyh</a></p>
+<p><a href='https://data.mos.ru/opendata/7704111479-svedeniya-o-naibolee-populyarnyh-jenskih-imenah-sredi-novorojdennyh'>https://data.mos.ru/opendata/7704111479-svedeniya-o-naibolee-populyarnyh-jenskih-imenah-sredi-novorojdennyh</a></p>
     <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
 
-    <p>TODO</p>
+    <p>The frequencies table is based on the information on the most popular male and female names among newborns
+from January 2015 to March 2020 in Moscow (according to the data from Administration of the Civil Status Registration Office of Moscow
+published on the Open Data Portal of the Moscow City Government). There are some modifications relative to source data:</p><ul>
+<li><p>letter "ё" was replaced with "е";</p></li>
+<li><p>names transformed to lower case;</p></li>
+<li><p>the "grouped" names (for example, "Даниил, Данила, Данил" instead of "Даниил", "Данила", "Данил") was splitted,
+   and the numbers of newborns of "grouped" names ("Даниил, Данила, Данил") were distibuted
+   on the single names ("Даниил", "Данила" and "Данил") according to their freaquences.</p></li>
+</ul>
+
     <h2 class="hasAnchor" id="license"><a class="anchor" href="#license"></a>License</h2>
 
-    <p>See <a href='https://apidata.mos.ru/Home/Terms'>https://apidata.mos.ru/Home/Terms</a></p>
+    <p>The data is published on an open access basis on the Open Data Portal of the Moscow City Government <a href='https://data.mos.ru'>https://data.mos.ru</a>.
+For the detailed terms of use see <a href='https://data.mos.ru/about/terms'>https://data.mos.ru/about/terms</a>.</p>
 
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">

@@ -3,7 +3,7 @@
 \docType{data}
 \name{freq_last_names}
 \alias{freq_last_names}
-\title{Frequent Russian Last Names}
+\title{Frequencies Table of Russian Last Names}
 \format{A data table with \Sexpr{nrow(rulexicon::freq_last_names)} rows
 and \Sexpr{ncol(rulexicon::freq_last_names)} variables:
 \describe{
@@ -11,17 +11,22 @@ and \Sexpr{ncol(rulexicon::freq_last_names)} variables:
     \item{freq}{the proportion relative to the most frequent surname}
 }}
 \source{
-\url{http://imja.name/familii/pyatsot-chastykh-familij.shtml}
+\url{http://hdl.handle.net/10995/1929}
 }
 \usage{
 data(freq_last_names)
 }
 \description{
-A dataset containing the \Sexpr{nrow(rulexicon::freq_last_names)} most frequent Russian last names of Zhuravlev (2005).
+A dataset containing the most frequent Russian last names of Zhuravlev (2005).
+}
+\details{
+The frequency table is based on the research results of Zhuravlev (2015). The table contains male surnames.
+Most of them can be transformed into the female surnames by adding the ending "a" (but there are some exceptions).
+In the future, it is planned to extend the table by including the female surnames in an explicit form.
 }
 \section{License}{
-
-The dictionary is published under Public domain license.
+ There are no license informations provided by Zhuravlev A.F. explicitly. But the Problems of Onomastics journal is published
+on an open access basis under the terms of the Creative Commons "Attribution-Non-Commercial-NoDerivs" 4.0 International License (CC BY-NC-ND 4.0).
 }
 
 \references{
