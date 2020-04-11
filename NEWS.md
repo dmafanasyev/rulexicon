@@ -3,8 +3,8 @@
 ## New Features
 The following frequencies table was added:
 
-* `freq_first_names`                - Frequencies Table of Russian First Names
-* `freq_last_names`                 - Frequencies Table of Russian Last Names
+* `freq_first_names`                - Frequency Table of Russian First Names
+* `freq_last_names`                 - Frequency Table of Russian Last Names
 
 # rulexicon 0.1.0 (2020-03-27)
 
