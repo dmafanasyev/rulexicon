@@ -4,12 +4,14 @@
 \name{hash_lemmas_opencorpora}
 \alias{hash_lemmas_opencorpora}
 \title{Lemmatization Table based on OpenCorpora Morphological Dictionary}
-\format{A data table with \Sexpr{nrow(rulexicon::hash_lemmas_opencorpora)} rows
+\format{
+A data table with \Sexpr{nrow(rulexicon::hash_lemmas_opencorpora)} rows
 and \Sexpr{ncol(rulexicon::hash_lemmas_opencorpora)} variables:
 \describe{
     \item{token}{a textual token (word) inflected by affixes}
     \item{lemma}{a base form or lemma}
-}}
+}
+}
 \source{
 \url{http://opencorpora.org/files/export/dict/dict.opcorpora.txt.zip}
 }

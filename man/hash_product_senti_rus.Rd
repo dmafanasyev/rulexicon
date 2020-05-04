@@ -4,12 +4,14 @@
 \name{hash_product_senti_rus}
 \alias{hash_product_senti_rus}
 \title{Opinion Orientation Probability Table of Lexicon ProductSentiRus}
-\format{A data frame with \Sexpr{nrow(rulexicon::hash_product_senti_rus)} rows and
+\format{
+A data frame with \Sexpr{nrow(rulexicon::hash_product_senti_rus)} rows and
 \Sexpr{ncol(rulexicon::hash_product_senti_rus)} variables:
 \describe{
     \item{token}{the textual token (word)}
     \item{probability}{the probability of opinion orientation}
-}}
+}
+}
 \source{
 \url{http://panchenko.me/data/snalp/sentiment/ProductSentiRus.txt}
 }

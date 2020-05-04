@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Frequency Table of Russian First Names — freq_first_names • rulexicon</title>
+<title>Economic Terms Dictionary of Tochka Bank — key_economic_tochka_bank • rulexicon</title>
 
 <!-- favicons -->
 <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -46,8 +46,11 @@
 
 
 
-<meta property="og:title" content="Frequency Table of Russian First Names — freq_first_names" />
-<meta property="og:description" content="A dataset containing the most frequent Russian first names in Moscow from January 2015 to  March 2020." />
+<meta property="og:title" content="Economic Terms Dictionary of Tochka Bank — key_economic_tochka_bank" />
+<meta property="og:description" content="A dataset containing the augmented dictionary of financial, economic and legal terms based on a glossary of Tochka Branch of
+ &quot;Bank Otkritie Financial Corporation&quot; (Public Joint-Stock Company). Table contains 6058
+
+ words and phrases." />
 <meta property="og:image" content="/logo.png" />
 
 
@@ -129,50 +132,56 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Frequency Table of Russian First Names</h1>
-    <small class="dont-index">Source: <a href='https://github.com/dmafanasyev/rulexicon/blob/master/R/freq_first_names.R'><code>R/freq_first_names.R</code></a></small>
-    <div class="hidden name"><code>freq_first_names.Rd</code></div>
+    <h1>Economic Terms Dictionary of Tochka Bank</h1>
+    <small class="dont-index">Source: <a href='https://github.com/dmafanasyev/rulexicon/blob/master/R/key_economic_tochka_bank.R'><code>R/key_economic_tochka_bank.R</code></a></small>
+    <div class="hidden name"><code>key_economic_tochka_bank.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>A dataset containing the most frequent Russian first names in Moscow from January 2015 to  March 2020.</p>
+    <p>A dataset containing the augmented dictionary of financial, economic and legal terms based on a glossary of Tochka Branch of
+ "Bank Otkritie Financial Corporation" (Public Joint-Stock Company). Table contains 6058
+
+ words and phrases.</p>
     </div>
 
-    <pre class="usage"><span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span>(<span class='no'>freq_first_names</span>)</pre>
+    <pre class="usage"><span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span>(<span class='no'>key_economic_tochka_bank</span>)</pre>
 
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>A data table with 369
+    <p>A data frame with 6058
  rows
 and 3
  variables:</p><dl'>
-    <dt>name</dt><dd><p>a first name (lowercase)</p></dd>
-    <dt>freq</dt><dd><p>the proportion relative to the most frequent name within the sex</p></dd>
-    <dt>sex</dt><dd><p>the sex corresponding to the name</p></dd>
+    <dt>token</dt><dd><p>a token (term)</p></dd>
+    <dt>lemma</dt><dd><p>a lemma of <code>token</code> (term)</p></dd>
+    <dt>regex</dt><dd><p>a regular expression of the all possible word forms of the <code>lemma</code></p></dd>
 
 </dl>
 
     <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
 
-    <p><a href='https://data.mos.ru/opendata/7704111479-svedeniya-o-naibolee-populyarnyh-mujskih-imenah-sredi-novorojdennyh'>https://data.mos.ru/opendata/7704111479-svedeniya-o-naibolee-populyarnyh-mujskih-imenah-sredi-novorojdennyh</a></p>
-<p><a href='https://data.mos.ru/opendata/7704111479-svedeniya-o-naibolee-populyarnyh-jenskih-imenah-sredi-novorojdennyh'>https://data.mos.ru/opendata/7704111479-svedeniya-o-naibolee-populyarnyh-jenskih-imenah-sredi-novorojdennyh</a></p>
+    <p><a href='https://tochka.com/info/glossary/'>https://tochka.com/info/glossary/</a></p>
     <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
 
-    <p>The Russian names frequency table based on the information on the most popular male and female names among newborns
-from January 2015 to March 2020 in Moscow (according to the data from Administration of the Civil Status Registration Office of Moscow
-published on the Open Data Portal of the Moscow City Government). There are some modifications relative to source data:</p><ul>
-<li><p>letter "ё" was replaced with "е";</p></li>
-<li><p>names transformed to lower case;</p></li>
-<li><p>the "grouped" names (for example, "Даниил, Данила, Данил" instead of "Даниил", "Данила", "Данил") was splitted,
-   and the numbers of newborns of "grouped" names ("Даниил, Данила, Данил") were distibuted
-   on the single names ("Даниил", "Данила" and "Данил") according to their historical freaquences.</p></li>
-</ul>
-
+    <p>The dictionary is a glossary of Tochka Branch of "Bank Otkritie Financial Corporation" (Public Joint-Stock Company)
+<a href='https://tochka.com/info/glossary/'>https://tochka.com/info/glossary/</a> based on Borisov's "Great economic dictionary" and augmented by maintainer
+of <code><a href='rulexicon.html'>rulexicon</a></code> package in the following:</p><ul>
+<li><p>fixed some issues with "е" instead "ё" and others</p></li>
+<li><p>lemmatized form of terms was added using <code><a href='hash_lemmas_opencorpora.html'>hash_lemmas_opencorpora</a></code> (the <code>lemma</code> column)</p></li>
+<li><p>the different word forms were added as universal regular expression, including the dualism of "ё - е" (the <code>regex</code> column)</p></li>
+</ul><p>Along with traditional terms, the dictionary includes relatively new ones that have come into use in recent years.
+The dictionary can be used to classify the texts as "economic" by simple terms search and counting.</p>
     <h2 class="hasAnchor" id="license"><a class="anchor" href="#license"></a>License</h2>
 
-    <p>The data is published on an open access basis on the Open Data Portal of the Moscow City Government <a href='https://data.mos.ru'>https://data.mos.ru</a>.
-For the detailed terms of use see <a href='https://data.mos.ru/about/terms'>https://data.mos.ru/about/terms</a>.</p>
+    
+
+<p>There is no explicit information about the license politics on a web-site Tochka Branch of "Bank Otkritie Financial Corporation"
+(Public Joint-Stock Company) or in a book of Borisov A.B. It can be assumed that the dictionary can be published under
+Creative Commons "Attribution-NonCommercial-ShareAlike" 4.0 International License (CC BY-NC-SA 4.0).</p>
+    <h2 class="hasAnchor" id="references"><a class="anchor" href="#references"></a>References</h2>
+
+    <p>Borisov, A.B. (2006). Great economic dictionary. Knizhiy Mir, Moscow. 543 p.</p>
 
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">

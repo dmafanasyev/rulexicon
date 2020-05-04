@@ -4,13 +4,15 @@
 \name{hash_valence_shifters_ru}
 \alias{hash_valence_shifters_ru}
 \title{Russian Valence Shifters Table}
-\format{A data table with \Sexpr{nrow(rulexicon::hash_valence_shifters_ru)} rows
+\format{
+A data table with \Sexpr{nrow(rulexicon::hash_valence_shifters_ru)} rows
 and \Sexpr{ncol(rulexicon::hash_valence_shifters_ru)} variables:
 \describe{
     \item{x}{the textual token (word or phrase)}
     \item{y}{shifting coefficient}
     \item{t}{the type of valence shifter: 1 = negators, 2 = amplifiers, 3 = deamplifiers}
-}}
+}
+}
 \source{
 \code{\link{list_valence_shifters}}
 }

@@ -4,7 +4,9 @@
 \name{sw_nltk_ru}
 \alias{sw_nltk_ru}
 \title{Stopwords List of Python's NLTK Library (augmented)}
-\format{A character vector with \Sexpr{length(rulexicon::sw_nltk_ru)} elements.}
+\format{
+A character vector with \Sexpr{length(rulexicon::sw_nltk_ru)} elements.
+}
 \source{
 Complex source, see References
 }

@@ -4,7 +4,9 @@
 \name{profanity_bally}
 \alias{profanity_bally}
 \title{Profane Words List of bally_36 LiveJournal user}
-\format{A character vector with \Sexpr{length(rulexicon::profanity_bally)} elements.}
+\format{
+A character vector with \Sexpr{length(rulexicon::profanity_bally)} elements.
+}
 \source{
 Complex source, see References
 }
@@ -13,7 +15,7 @@ data(profanity_bally)
 }
 \description{
 A dataset containing a character vector of profane words from LiveJournal user bally_36
- augmented by maintainer of \pkg{rulexicon} package using additional list from www.spy-soft.net user IVO.
+ augmented by maintainer of \code{\link[rulexicon]{rulexicon}} package using additional list from www.spy-soft.net user IVO.
 }
 \section{License}{
 

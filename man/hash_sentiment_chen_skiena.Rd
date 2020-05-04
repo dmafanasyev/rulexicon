@@ -4,12 +4,14 @@
 \name{hash_sentiment_chen_skiena}
 \alias{hash_sentiment_chen_skiena}
 \title{Polarity Table of Chen and Skiena (2014) Lexicon Multilingualsentiment}
-\format{A data table with \Sexpr{nrow(rulexicon::hash_sentiment_chen_skiena)} rows and
+\format{
+A data table with \Sexpr{nrow(rulexicon::hash_sentiment_chen_skiena)} rows and
 \Sexpr{ncol(rulexicon::hash_sentiment_chen_skiena)} variables:
 \describe{
     \item{token}{the textual token (word or phrase)}
     \item{score}{the sentiment score: −1 for negative, 1 for positive}
-}}
+}
+}
 \source{
 \url{http://bit.ly/1iwOMZb} - negative words list, \url{http://bit.ly/1rAqgfb} - positive words list
 }

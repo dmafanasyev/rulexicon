@@ -4,7 +4,8 @@
 \name{hash_rusentilex_2016}
 \alias{hash_rusentilex_2016}
 \title{General Russian Sentiment Lexicon RuSentiLex 2016}
-\format{A data table with \Sexpr{nrow(rulexicon::hash_rusentilex_2016)} rows and
+\format{
+A data table with \Sexpr{nrow(rulexicon::hash_rusentilex_2016)} rows and
 \Sexpr{ncol(rulexicon::hash_rusentilex_2016)} variables:
 \describe{
     \item{token}{the textual token (word or phrase)}
@@ -14,7 +15,8 @@
     \item{source}{opinion, feeling (private state), or fact (sentiment connotation)}
     \item{ambiguity}{if sentiment is different for senses of an ambiguous word, then sentiment orientations for all senses
     are described, the senses are labeled with the RuThes concept names}
-}}
+}
+}
 \source{
 \url{https://www.labinform.ru/pub/rusentilex/rusentilex_2016.txt}
 }

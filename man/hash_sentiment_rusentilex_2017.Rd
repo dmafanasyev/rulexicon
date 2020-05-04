@@ -4,12 +4,14 @@
 \name{hash_sentiment_rusentilex_2017}
 \alias{hash_sentiment_rusentilex_2017}
 \title{Polarity Table of General Russian Sentiment Lexicon RuSentiLex 2017}
-\format{A data table with \Sexpr{nrow(rulexicon::hash_sentiment_rusentilex_2017)} rows
+\format{
+A data table with \Sexpr{nrow(rulexicon::hash_sentiment_rusentilex_2017)} rows
 and \Sexpr{ncol(rulexicon::hash_sentiment_rusentilex_2017)} variables:
 \describe{
     \item{token}{the textual token (word or phrase)}
     \item{score}{the sentiment score: −1 for negative, 0 for neutral, 1 for positive}
-}}
+}
+}
 \source{
 \url{https://www.labinform.ru/pub/rusentilex/rusentilex_2017.txt}
 }

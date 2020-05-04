@@ -4,13 +4,15 @@
 \name{freq_first_names}
 \alias{freq_first_names}
 \title{Frequency Table of Russian First Names}
-\format{A data table with \Sexpr{nrow(rulexicon::freq_first_names)} rows
+\format{
+A data table with \Sexpr{nrow(rulexicon::freq_first_names)} rows
 and \Sexpr{ncol(rulexicon::freq_first_names)} variables:
 \describe{
     \item{name}{a first name (lowercase)}
     \item{freq}{the proportion relative to the most frequent name within the sex}
     \item{sex}{the sex corresponding to the name}
-}}
+}
+}
 \source{
 \url{https://data.mos.ru/opendata/7704111479-svedeniya-o-naibolee-populyarnyh-mujskih-imenah-sredi-novorojdennyh}
 

@@ -4,12 +4,14 @@
 \name{hash_sentiment_nrc_emolex_ru}
 \alias{hash_sentiment_nrc_emolex_ru}
 \title{Polarity Table of Translated NRC Emotion Lexicon}
-\format{A data table with \Sexpr{nrow(rulexicon::hash_sentiment_nrc_emolex_ru)} rows and
+\format{
+A data table with \Sexpr{nrow(rulexicon::hash_sentiment_nrc_emolex_ru)} rows and
 \Sexpr{ncol(rulexicon::hash_sentiment_nrc_emolex_ru)} variables:
 \describe{
     \item{token}{the textual token (word or phrase)}
     \item{score}{the sentiment score: −1 for negative, 1 for positive}
-}}
+}
+}
 \source{
 \url{http://sentiment.nrc.ca/lexicons-for-research/NRC-Emotion-Lexicon.zip}
 }

@@ -4,7 +4,8 @@
 \name{key_nonfinance_report_standard}
 \alias{key_nonfinance_report_standard}
 \title{Non-financial Information Disclosure Dictionary of Fedorova, Khrustova and Demin (GRI based)}
-\format{A data frame with \Sexpr{nrow(rulexicon::key_nonfinance_report_standard)} rows
+\format{
+A data frame with \Sexpr{nrow(rulexicon::key_nonfinance_report_standard)} rows
 and \Sexpr{ncol(rulexicon::key_nonfinance_report_standard)} variables:
 \describe{
     \item{order}{number of report's section (area) order}
@@ -12,7 +13,8 @@ and \Sexpr{ncol(rulexicon::key_nonfinance_report_standard)} variables:
     \item{main_token}{main or grouping token (term)}
     \item{token}{token (term), this is equal to \code{main_token}, or synonym of the main (grouping) token}
     \item{regex}{regular expression for all word forms of the \code{token}}
-}}
+}
+}
 \source{
 \url{https://www.globalreporting.org/standards/gri-standards-download-center/}
 }

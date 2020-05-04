@@ -4,12 +4,14 @@
 \name{hash_sentiment_linis_crowd_2015}
 \alias{hash_sentiment_linis_crowd_2015}
 \title{Polarity Table of Social-Political Oriented Lexicon "LINIS Crowd SENT" 2015}
-\format{A data table with \Sexpr{nrow(rulexicon::hash_sentiment_linis_crowd_2015)} rows
+\format{
+A data table with \Sexpr{nrow(rulexicon::hash_sentiment_linis_crowd_2015)} rows
 and \Sexpr{ncol(rulexicon::hash_sentiment_linis_crowd_2015)} variables:
 \describe{
     \item{token}{the textual token (word or phrase)}
     \item{score}{the sentiment score: from −2 (negative) to +2 (positive) with step 1}
-}}
+}
+}
 \source{
 \url{http://linis-crowd.org/static/dictionary_documents.zip}
 }

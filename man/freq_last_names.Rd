@@ -4,12 +4,14 @@
 \name{freq_last_names}
 \alias{freq_last_names}
 \title{Frequency Table of Russian Last Names}
-\format{A data table with \Sexpr{nrow(rulexicon::freq_last_names)} rows
+\format{
+A data table with \Sexpr{nrow(rulexicon::freq_last_names)} rows
 and \Sexpr{ncol(rulexicon::freq_last_names)} variables:
 \describe{
     \item{surname}{a last name (lowercase)}
     \item{freq}{the proportion relative to the most frequent surname within the sex}
-}}
+}
+}
 \source{
 \url{http://hdl.handle.net/10995/1929}
 }

@@ -4,12 +4,14 @@
 \name{hash_sentiment_afinn_ru}
 \alias{hash_sentiment_afinn_ru}
 \title{Polarity Table of Translated AFINN Based Lexicon}
-\format{A data table with \Sexpr{nrow(rulexicon::hash_sentiment_afinn_ru)} rows
+\format{
+A data table with \Sexpr{nrow(rulexicon::hash_sentiment_afinn_ru)} rows
 and \Sexpr{ncol(rulexicon::hash_sentiment_afinn_ru)} variables:
 \describe{
     \item{token}{the textual token (word or phrase)}
     \item{score}{the sentiment score: from −5 (negative) to +5 (positive) with fractional step}
-}}
+}
+}
 \source{
 \url{https://github.com/text-machine-lab/sentimental/blob/master/sentimental/word_list/russian.csv}
 }

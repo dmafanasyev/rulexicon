@@ -1,7 +1,7 @@
 #' Profane Words List of bally_36 LiveJournal user
 #'
 #'  A dataset containing a character vector of profane words from LiveJournal user bally_36
-#'  augmented by maintainer of \pkg{rulexicon} package using additional list from www.spy-soft.net user IVO.
+#'  augmented by maintainer of \code{\link[rulexicon]{rulexicon}} package using additional list from www.spy-soft.net user IVO.
 #'
 #' @docType data
 #' @name profanity_bally
