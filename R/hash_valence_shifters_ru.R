@@ -15,8 +15,8 @@
 #'     \item{t}{the type of valence shifter: 1 = negators, 2 = amplifiers, 3 = deamplifiers}
 #' }
 #'
-#' @details The dataset is based on \code{\link[sentometrics]{list_valence_shifters}} from \pkg{sentometrics} package (only English words)
-#' that was filtered and translated via Google Translate to Russian language.
+#' @details The dataset is based on \code{\link[sentometrics]{list_valence_shifters}} (only English words) from \code{\link[sentometrics]{sentometrics}}
+#' package that was filtered and translated via Google Translate to Russian language.
 #'
 #' @source \code{\link{list_valence_shifters}}
 NULL
