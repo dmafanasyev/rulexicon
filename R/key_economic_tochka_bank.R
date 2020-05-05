@@ -36,6 +36,7 @@
 #'
 #' @references
 #' Glossary of Tochka Branch of "Bank Otkritie Financial Corporation" (Public Joint-Stock Company): \url{https://tochka.com/info/glossary/}
+#'
 #' Borisov, A.B. (2006). Great economic dictionary. Knizhiy Mir, Moscow. 543 p.
 #'
 #' @source \url{https://tochka.com/info/glossary/}
