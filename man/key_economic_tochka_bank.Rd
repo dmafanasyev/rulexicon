@@ -3,7 +3,7 @@
 \docType{data}
 \name{key_economic_tochka_bank}
 \alias{key_economic_tochka_bank}
-\title{Economic Terms Dictionary of Tochka Bank}
+\title{Dictionary of Economic Terms of Tochka Bank}
 \format{
 A data frame with \Sexpr{nrow(rulexicon::key_economic_tochka_bank)} rows
 and \Sexpr{ncol(rulexicon::key_economic_tochka_bank)} variables:
@@ -20,9 +20,9 @@ and \Sexpr{ncol(rulexicon::key_economic_tochka_bank)} variables:
 data(key_economic_tochka_bank)
 }
 \description{
-A dataset containing the augmented dictionary of financial, economic and legal terms based on a glossary of Tochka Branch of
- "Bank Otkritie Financial Corporation" (Public Joint-Stock Company). Table contains \Sexpr{nrow(rulexicon::key_economic_tochka_bank)}
- words and phrases.
+A dataset containing the dictionary of financial, economic and legal terms based on a glossary of Tochka Branch of
+ "Bank Otkritie Financial Corporation" (Public Joint-Stock Company), and augmented by Dmitriy O. Afanasyev.
+ Table contains \Sexpr{nrow(rulexicon::key_economic_tochka_bank)} words and phrases.
 }
 \details{
 The dictionary is a glossary of Tochka Branch of "Bank Otkritie Financial Corporation" (Public Joint-Stock Company)

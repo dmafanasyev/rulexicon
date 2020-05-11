@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>General Russian Sentiment Lexicon RuSentiLex 2017 — hash_rusentilex_2017 • rulexicon</title>
+<title>Dictionary of Public Company Information Disclosure of Fedorova, Grishenko and Demin (Regulation No. 454-P) — key_company_rus_report_standard • rulexicon</title>
 
 <!-- favicons -->
 <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -46,12 +46,12 @@
 
 
 
-<meta property="og:title" content="General Russian Sentiment Lexicon RuSentiLex 2017 — hash_rusentilex_2017" />
-<meta property="og:description" content="The original table of general Russian sentiment lexicon - RuSentiLex, version 2017.
- Table contains 16057
- unique words or phrases, and
- 14310
- has non-neutral sentiment scores." />
+<meta property="og:title" content="Dictionary of Public Company Information Disclosure of Fedorova, Grishenko and Demin (Regulation No. 454-P) — key_company_rus_report_standard" />
+<meta property="og:description" content="A dataset containing the dictionary (taxonomy) of Fedorova, Grishchenko and Demin for the public company information disclosure estimation
+ based on Regulation No. 454-P of the Central Bank of Russian Federation
+ (https://www.cbr.ru/Queries/XsltBlock/File/86277?fileid=-1&amp;amp;scope=1614-1615).
+ Table contains 189
+ words and phrases." />
 <meta property="og:image" content="/logo.png" />
 
 
@@ -133,63 +133,54 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>General Russian Sentiment Lexicon RuSentiLex 2017</h1>
-    <small class="dont-index">Source: <a href='https://github.com/dmafanasyev/rulexicon/blob/master/R/hash_rusentilex_2017.R'><code>R/hash_rusentilex_2017.R</code></a></small>
-    <div class="hidden name"><code>hash_rusentilex_2017.Rd</code></div>
+    <h1>Dictionary of Public Company Information Disclosure of Fedorova, Grishenko and Demin (Regulation No. 454-P)</h1>
+    <small class="dont-index">Source: <a href='https://github.com/dmafanasyev/rulexicon/blob/master/R/key_company_rus_report_standard.R'><code>R/key_company_rus_report_standard.R</code></a></small>
+    <div class="hidden name"><code>key_company_rus_report_standard.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>The original table of general Russian sentiment lexicon - RuSentiLex, version 2017.
- Table contains 16057
- unique words or phrases, and
- 14310
- has non-neutral sentiment scores.</p>
+    <p>A dataset containing the dictionary (taxonomy) of Fedorova, Grishchenko and Demin for the public company information disclosure estimation
+ based on Regulation No. 454-P of the Central Bank of Russian Federation
+ (<a href='https://www.cbr.ru/Queries/XsltBlock/File/86277?fileid=-1&amp;scope=1614-1615'>https://www.cbr.ru/Queries/XsltBlock/File/86277?fileid=-1&amp;scope=1614-1615</a>).
+ Table contains 189
+ words and phrases.</p>
     </div>
 
-    <pre class="usage"><span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span>(<span class='no'>hash_rusentilex_2017</span>)</pre>
+    <pre class="usage"><span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span>(<span class='no'>key_company_rus_report_standard</span>)</pre>
 
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>A data frame with 16057
- rows and
-6
+    <p>A data frame with 189
+ rows
+and 5
  variables:</p><dl'>
-    <dt>token</dt><dd><p>the textual token (word or phrase)</p></dd>
-    <dt>speech.part</dt><dd><p>part of speech or type of syntactic group</p></dd>
-    <dt>lemma</dt><dd><p>initial word (phrase) in a lemmatized form</p></dd>
-    <dt>sentiment</dt><dd><p>one of positive, negative, neutral or positive/negative (indefinite, depends on the context)</p></dd>
-    <dt>source</dt><dd><p>opinion, feeling (private state), or fact (sentiment connotation)</p></dd>
-    <dt>ambiguity</dt><dd><p>if sentiment is different for senses of an ambiguous word, then sentiment orientations for all senses
-    are described, the senses are labeled with the RuThes concept names</p></dd>
+    <dt>order</dt><dd><p>number of report's section (area) order</p></dd>
+    <dt>section</dt><dd><p>name of report's section (area)</p></dd>
+    <dt>main_token</dt><dd><p>main or grouping token (term)</p></dd>
+    <dt>token</dt><dd><p>token (term), this is equal to <code>main_token</code>, or synonym of the main (grouping) token</p></dd>
+    <dt>regex</dt><dd><p>regular expression for all word forms of the <code>token</code></p></dd>
 
 </dl>
 
-    <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
-
-    <p><a href='https://www.labinform.ru/pub/rusentilex/rusentilex_2017.txt'>https://www.labinform.ru/pub/rusentilex/rusentilex_2017.txt</a></p>
     <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
 
-    <p>The lexicon contains the following types of sentiment-related words and phrases:</p><ul>
-<li><p>general sentiment (opinionated) words from domain-oriented Russian sentiment lists vocabularies;</p></li>
-<li><p>non-opinionated words with connotations usually convey information about negative or positive phenomena (facts) in
-   social life;</p></li>
-<li><p>slang and curse words from Twitter.</p></li>
-</ul><p>The words in the lexicon having different sentiment orientations in specific senses are linked to appropriate concepts of
- the thesaurus of Russian language RuThes (<a href='https://www.labinform.ru/pub/ruthes/'>https://www.labinform.ru/pub/ruthes/</a>). All lexicon entries are classified
- according to four sentiment categories and three sources of sentiment (opinion, emotion, or fact).</p>
-<p>Based on the RuSentiLex the polarity table with sentiment scores was generated by maintainer of <span class="pkg">rulexicon</span> package,
-see <code><a href='hash_sentiment_rusentilex_2017.html'>hash_sentiment_rusentilex_2017</a></code>.</p>
+    <p>The dictionary is based on Regulation No. 454-P of the Central Bank of Russian Federation
+(<a href='https://www.cbr.ru/Queries/XsltBlock/File/86277?fileid=-1&amp;scope=1614-1615'>https://www.cbr.ru/Queries/XsltBlock/File/86277?fileid=-1&amp;scope=1614-1615</a>) and builded by Fedorova, Grishenko and Demin:</p><ul>
+<li><p>the main terms of Russian companies' reports was manually collected into dictionary</p></li>
+<li><p>synonyms and different word forms were added as universal regular expression</p></li>
+</ul><p>The taxonomy can be used to verify compliance of Russian public company reports with standards of the Central Bank of Russian Federation,
+information disclosure estimation, as well as for thematic analysis of company reports. See References for details of usage.</p>
     <h2 class="hasAnchor" id="license"><a class="anchor" href="#license"></a>License</h2>
 
     
 
-<p>According to information from Natalya Loukachevitch the lexicon RuSentiLex is published under
-Creative Commons "Attribution-NonCommercial-ShareAlike" 4.0 International License (CC BY-NC-SA 4.0).</p>
+<p>The dictionary is published under Creative Commons "Attribution-NonCommercial-ShareAlike" 4.0 International License (CC BY-NC-SA 4.0).
+For additional permissions (including the commercial use) please contact to Elena Fedorova &lt;ecolena@mail.ru&gt;.</p>
     <h2 class="hasAnchor" id="references"><a class="anchor" href="#references"></a>References</h2>
 
-    <p>Loukachevitch N., Levchik A., 2016. Creating a General Russian Sentiment Lexicon. In Proceedings of Language Resources and Evaluation Conference LREC-2016. URL: <a href='http://www.lrec-conf.org/proceedings/lrec2016/pdf/285_Paper.pdf'>http://www.lrec-conf.org/proceedings/lrec2016/pdf/285_Paper.pdf</a></p>
-<p>RuSentiLex project web-page: <a href='https://www.labinform.ru/pub/rusentilex/index.htm'>https://www.labinform.ru/pub/rusentilex/index.htm</a></p>
+    <p>Fedorova, E.A., Grishenko, U.I., Demin I.S. (2020). The impact of the level of disclosure of mandatory non-financial information
+in the annual reports of public companies on the investment attractiveness of the issuer. Journal of Corporate Finance Research 15(2). Forthcoming.</p>
 
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">

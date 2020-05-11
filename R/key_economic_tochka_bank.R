@@ -1,8 +1,8 @@
-#' Economic Terms Dictionary of Tochka Bank
+#' Dictionary of Economic Terms of Tochka Bank
 #'
-#'  A dataset containing the augmented dictionary of financial, economic and legal terms based on a glossary of Tochka Branch of
-#'  "Bank Otkritie Financial Corporation" (Public Joint-Stock Company). Table contains \Sexpr{nrow(rulexicon::key_economic_tochka_bank)}
-#'  words and phrases.
+#'  A dataset containing the dictionary of financial, economic and legal terms based on a glossary of Tochka Branch of
+#'  "Bank Otkritie Financial Corporation" (Public Joint-Stock Company), and augmented by Dmitriy O. Afanasyev.
+#'  Table contains \Sexpr{nrow(rulexicon::key_economic_tochka_bank)} words and phrases.
 #'
 #' @docType data
 #' @name key_economic_tochka_bank
