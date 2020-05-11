@@ -24,9 +24,12 @@
 #' The dictionary is based on Regulation No. 454-P of the Central Bank of Russian Federation
 #' (\url{https://www.cbr.ru/Queries/XsltBlock/File/86277?fileid=-1&scope=1614-1615}) and builded by Fedorova, Grishenko and Demin:
 #' \itemize{
-#'    \item the main terms of Russian companies' reports was manually collected into dictionary
-#'    \item synonyms and different word forms were added as universal regular expression
-#'  }
+#'    \item the main terms of Russian companies' reports were manually collected into dictionary
+#'    \item synonyms and different word forms were added as universal regular expression.
+#' }
+#' The dictionary includes the report's sections (areas) as following:
+#' \Sexpr{paste0(unique(rulexicon::key_company_rus_report_standard$section), collapse = "; ")}.
+#'
 #' The taxonomy can be used to verify compliance of Russian public company reports with standards of the Central Bank of Russian Federation,
 #' information disclosure estimation, as well as for thematic analysis of company reports. See References for details of usage.
 #'

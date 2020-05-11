@@ -34,7 +34,10 @@ augmented by Fedorova, Khrustova and Demin in the following:
    \item terms were extended and aligned with the terminology of Russian companies' reports
    \item glossary was supplemented by additional topics and related terms: sponsorship, social responsibility, innovativeness, technology
    \item synonyms and different word forms were added as universal regular expression
- }
+}
+The dictionary includes the report's sections (areas) as following:
+\Sexpr{paste0(unique(rulexicon::key_nonfinance_report_standard$section), collapse = "; ")}.
+
 The taxonomy can be used to verify compliance of Russian public company reports with GRI Standards,
 non-financial information disclosure estimation, as well as for thematic analysis of company reports.
 See References for details of usage.
