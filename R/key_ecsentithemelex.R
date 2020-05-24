@@ -1,0 +1,33 @@
+#' Sentiment-Thematic Dictionary of Economic Terms - EcSentiThemeLex.
+#'
+#'  A dataset containing the lexicon EcSentiThemeLex - the dictionary of economic, financial and legal terms for which a thematic group(s)
+#'  and sentiment score (polarity) were defined. The dictionary builded by Fedorova, Afanasyev, Demin and a group of bachelor.
+#'  Table contains \Sexpr{nrow(rulexicon::key_ecsentithemelex)} words and phrases.
+#'
+#' @docType data
+#' @name key_ecsentithemelex
+#' @usage data(key_ecsentithemelex)
+#' @keywords datasets
+#'
+#' @format A data frame with \Sexpr{nrow(rulexicon::key_ecsentithemelex)} rows
+#' and \Sexpr{ncol(rulexicon::key_ecsentithemelex)} variables:
+#' \describe{
+#'     \item{theme}{a thematic group}
+#'     \item{token}{a token (word or phrase)}
+#'     \item{lemma}{a lemma of \code{token}}
+#'     \item{regex}{regular expression for all word forms of the \code{token} (including "е-ё" dualism)}
+#'     \item{score}{the sentiment score: from −2 (strongly negative) to +2 (strongly positive) with step 1}
+#' }
+#'
+#' @details
+#' The dictionary includes the thematic groups as following:
+#'
+#' \Sexpr{paste0(unique(rulexicon::key_ecsentithemelex$theme), collapse = "; ")}.
+#'
+#'
+#' @section License:
+#' The dictionary is published under Creative Commons "Attribution-NonCommercial-ShareAlike" 4.0 International License (CC BY-NC-SA 4.0).
+#' For additional permissions (including the commercial use) please contact to Elena Fedorova <ecolena@mail.ru>.
+#'
+#' @references
+NULL

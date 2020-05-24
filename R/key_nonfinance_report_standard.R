@@ -14,8 +14,8 @@
 #' \describe{
 #'     \item{order}{number of report's section (area) order}
 #'     \item{section}{name of report's section (area)}
-#'     \item{main_token}{main or grouping token (term)}
-#'     \item{token}{token (term), this is equal to \code{main_token}, or synonym of the main (grouping) token}
+#'     \item{main_token}{main or grouping token (word or phrase)}
+#'     \item{token}{token (word of phrase), this is equal to or synonym of \code{main_token}}
 #'     \item{regex}{regular expression for all word forms of the \code{token}}
 #' }
 #'
@@ -28,7 +28,9 @@
 #'    \item glossary was supplemented by additional topics and related terms: sponsorship, social responsibility, innovativeness, technology
 #'    \item synonyms and different word forms were added as universal regular expression
 #' }
+#'
 #' The dictionary includes the report's sections (areas) as following:
+#'
 #' \Sexpr{paste0(unique(rulexicon::key_nonfinance_report_standard$section), collapse = "; ")}.
 #'
 #' The taxonomy can be used to verify compliance of Russian public company reports with GRI Standards,

@@ -15,8 +15,8 @@
 #' \describe{
 #'     \item{order}{number of report's section (area) order}
 #'     \item{section}{name of report's section (area)}
-#'     \item{main_token}{main or grouping token (term)}
-#'     \item{token}{token (term), this is equal to \code{main_token}, or synonym of the main (grouping) token}
+#'     \item{main_token}{main or grouping token (word or phrase)}
+#'     \item{token}{token (word or phrase), this is equal to or synonym of \code{main_token}}
 #'     \item{regex}{regular expression for all word forms of the \code{token}}
 #' }
 #'
@@ -27,7 +27,9 @@
 #'    \item the main terms of Russian companies' reports were manually collected into dictionary
 #'    \item synonyms and different word forms were added as universal regular expression.
 #' }
+#'
 #' The dictionary includes the report's sections (areas) as following:
+#'
 #' \Sexpr{paste0(unique(rulexicon::key_company_rus_report_standard$section), collapse = "; ")}.
 #'
 #' The taxonomy can be used to verify compliance of Russian public company reports with standards of the Central Bank of Russian Federation,
@@ -39,5 +41,5 @@
 #'
 #' @references
 #' Fedorova, E.A., Grishenko, U.I., Demin I.S. (2020). The impact of the level of disclosure of mandatory non-financial information
-#' in the annual reports of public companies on the investment attractiveness of the issuer. Journal of Corporate Finance Research 15(2). Forthcoming.
+#' in the annual reports of public companies on the investment attractiveness of the issuer. Forthcoming.
 NULL

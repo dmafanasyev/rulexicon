@@ -1,3 +1,11 @@
+# rulexicon 0.1.4 (2020-05-24)
+
+## New Features
+The following dictionary and polarity table were added:
+
+* `key_ecsentithemelex` - Sentiment-Thematic Dictionary of Economic Terms - EcSentiThemeLex
+* `hash_sentiment_ecsentithemelex` - Polarity Table of Sentiment-Thematic Dictionary of Economic Terms - EcSentiThemeLex
+
 # rulexicon 0.1.3 (2020-05-11)
 
 ## New Features

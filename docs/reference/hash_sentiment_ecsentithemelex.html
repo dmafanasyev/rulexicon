@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Polarity Table of Social-Political Oriented Lexicon "LINIS Crowd SENT" 2015 — hash_sentiment_linis_crowd_2015 • rulexicon</title>
+<title>Polarity Table of Sentiment-Thematic Dictionary of Economic Terms - EcSentiThemeLex — hash_sentiment_ecsentithemelex • rulexicon</title>
 
 <!-- favicons -->
 <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -46,11 +46,11 @@
 
 
 
-<meta property="og:title" content="Polarity Table of Social-Political Oriented Lexicon "LINIS Crowd SENT" 2015 — hash_sentiment_linis_crowd_2015" />
-<meta property="og:description" content="The polarity table from crowdsourcing lexicon &quot;LINIS Crowd SENT&quot;, version 2015.
- Table contains 11876
- words or phrases, and
- 2681
+<meta property="og:title" content="Polarity Table of Sentiment-Thematic Dictionary of Economic Terms - EcSentiThemeLex — hash_sentiment_ecsentithemelex" />
+<meta property="og:description" content="The polarity table of sentiment-thematic dictionary of economic, financial and legal terms - EcSentiThemeLex.
+ Table contains 15235
+ words forms, and
+ 9841
 
  has non-neutral sentiment scores." />
 <meta property="og:image" content="/logo.png" />
@@ -134,51 +134,54 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Polarity Table of Social-Political Oriented Lexicon "LINIS Crowd SENT" 2015</h1>
-    <small class="dont-index">Source: <a href='https://github.com/dmafanasyev/rulexicon/blob/master/R/hash_sentiment_linis_crowd_2015.R'><code>R/hash_sentiment_linis_crowd_2015.R</code></a></small>
-    <div class="hidden name"><code>hash_sentiment_linis_crowd_2015.Rd</code></div>
+    <h1>Polarity Table of Sentiment-Thematic Dictionary of Economic Terms - EcSentiThemeLex</h1>
+    <small class="dont-index">Source: <a href='https://github.com/dmafanasyev/rulexicon/blob/master/R/hash_sentiment_ecsentithemelex.R'><code>R/hash_sentiment_ecsentithemelex.R</code></a></small>
+    <div class="hidden name"><code>hash_sentiment_ecsentithemelex.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>The polarity table from crowdsourcing lexicon "LINIS Crowd SENT", version 2015.
- Table contains 11876
- words or phrases, and
- 2681
+    <p>The polarity table of sentiment-thematic dictionary of economic, financial and legal terms - EcSentiThemeLex.
+ Table contains 15235
+ words forms, and
+ 9841
 
  has non-neutral sentiment scores.</p>
     </div>
 
-    <pre class="usage"><span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span>(<span class='no'>hash_sentiment_linis_crowd_2015</span>)</pre>
+    <pre class="usage"><span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span>(<span class='no'>hash_sentiment_ecsentithemelex</span>)</pre>
 
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>A data table with 7545
+    <p>A data table with 15235
  rows
 and 2
  variables:</p><dl'>
-    <dt>token</dt><dd><p>the textual token (word or phrase)</p></dd>
-    <dt>score</dt><dd><p>the sentiment score: from −2 (negative) to +2 (positive) with step 1</p></dd>
+    <dt>token</dt><dd><p>a token (word)</p></dd>
+    <dt>score</dt><dd><p>a sentiment score: from −2 (strongly negative) to +2 (strongly positive) with step 1</p></dd>
 
 </dl>
 
-    <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
-
-    <p><a href='http://linis-crowd.org/static/dictionary_documents.zip'>http://linis-crowd.org/static/dictionary_documents.zip</a></p>
     <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
 
-    <p>The lexicon is aimed at detecting sentiment in blogs and social media related to social and political issues.
-Words sentiment scores assessed by volunteers (at least three).</p>
+    <p>The polarity table was generated from original lexicon table (see <code><a href='key_ecsentithemelex.html'>key_ecsentithemelex</a></code>) based on
+the following rules:</p><ul>
+<li><p>tokens consisting of more than one word were discarded (as required for bag-of-words sentiment analysis)</p></li>
+<li><p>all possible word forms were added as separete <code>token</code>s</p></li>
+<li><p>for the words containing the letter "ё" the spelling option with letter "е" were added as separete <code>token</code></p></li>
+</ul>
+
     <h2 class="hasAnchor" id="license"><a class="anchor" href="#license"></a>License</h2>
 
     
 
-<p>According to "LINIS Crowd SENT" project web-site (<a href='http://linis-crowd.org'>http://linis-crowd.org</a>) the dictionary
-are published under Creative Commons "Attribution-NonCommercial-ShareAlike" 4.0 International (CC BY-NC-SA 4.0).
-Additional permissions can be accessed  here: <a href='http://www.linis-crowd.org/contacts/'>http://www.linis-crowd.org/contacts/</a>.</p>
+<p>The dictionary is published under Creative Commons "Attribution-NonCommercial-ShareAlike" 4.0 International License (CC BY-NC-SA 4.0).
+For additional permissions (including the commercial use) please contact to Elena Fedorova &lt;ecolena@mail.ru&gt;.</p>
     <h2 class="hasAnchor" id="references"><a class="anchor" href="#references"></a>References</h2>
 
-    <p>Koltsova, O.Yu., Alexeeva, S.V., Kolcov S.N., 2016. An opinion word lexicon and a training dataset for Russian sentiment analysis of social media. Computational Linguistics and Intellectual Technologies: Proceedings of the International Conference "Dialogue 2016". URL: <a href='http://www.dialog-21.ru/media/3400/koltsovaoyuetal.pdf'>http://www.dialog-21.ru/media/3400/koltsovaoyuetal.pdf</a></p>
+    
+
+
 
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">

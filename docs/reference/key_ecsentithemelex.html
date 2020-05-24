@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Polarity Table of Social-Political Oriented Lexicon "LINIS Crowd SENT" 2015 — hash_sentiment_linis_crowd_2015 • rulexicon</title>
+<title>Sentiment-Thematic Dictionary of Economic Terms - EcSentiThemeLex. — key_ecsentithemelex • rulexicon</title>
 
 <!-- favicons -->
 <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -46,13 +46,11 @@
 
 
 
-<meta property="og:title" content="Polarity Table of Social-Political Oriented Lexicon "LINIS Crowd SENT" 2015 — hash_sentiment_linis_crowd_2015" />
-<meta property="og:description" content="The polarity table from crowdsourcing lexicon &quot;LINIS Crowd SENT&quot;, version 2015.
- Table contains 11876
- words or phrases, and
- 2681
-
- has non-neutral sentiment scores." />
+<meta property="og:title" content="Sentiment-Thematic Dictionary of Economic Terms - EcSentiThemeLex. — key_ecsentithemelex" />
+<meta property="og:description" content="A dataset containing the lexicon EcSentiThemeLex - the dictionary of economic, financial and legal terms for which a thematic group(s)
+ and sentiment score (polarity) were defined. The dictionary builded by Fedorova, Afanasyev, Demin and a group of bachelor.
+ Table contains 4472
+ words and phrases." />
 <meta property="og:image" content="/logo.png" />
 
 
@@ -134,51 +132,51 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Polarity Table of Social-Political Oriented Lexicon "LINIS Crowd SENT" 2015</h1>
-    <small class="dont-index">Source: <a href='https://github.com/dmafanasyev/rulexicon/blob/master/R/hash_sentiment_linis_crowd_2015.R'><code>R/hash_sentiment_linis_crowd_2015.R</code></a></small>
-    <div class="hidden name"><code>hash_sentiment_linis_crowd_2015.Rd</code></div>
+    <h1>Sentiment-Thematic Dictionary of Economic Terms - EcSentiThemeLex.</h1>
+    <small class="dont-index">Source: <a href='https://github.com/dmafanasyev/rulexicon/blob/master/R/key_ecsentithemelex.R'><code>R/key_ecsentithemelex.R</code></a></small>
+    <div class="hidden name"><code>key_ecsentithemelex.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>The polarity table from crowdsourcing lexicon "LINIS Crowd SENT", version 2015.
- Table contains 11876
- words or phrases, and
- 2681
-
- has non-neutral sentiment scores.</p>
+    <p>A dataset containing the lexicon EcSentiThemeLex - the dictionary of economic, financial and legal terms for which a thematic group(s)
+ and sentiment score (polarity) were defined. The dictionary builded by Fedorova, Afanasyev, Demin and a group of bachelor.
+ Table contains 4472
+ words and phrases.</p>
     </div>
 
-    <pre class="usage"><span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span>(<span class='no'>hash_sentiment_linis_crowd_2015</span>)</pre>
+    <pre class="usage"><span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span>(<span class='no'>key_ecsentithemelex</span>)</pre>
 
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>A data table with 7545
+    <p>A data frame with 4472
  rows
-and 2
+and 5
  variables:</p><dl'>
-    <dt>token</dt><dd><p>the textual token (word or phrase)</p></dd>
-    <dt>score</dt><dd><p>the sentiment score: from −2 (negative) to +2 (positive) with step 1</p></dd>
+    <dt>theme</dt><dd><p>a thematic group</p></dd>
+    <dt>token</dt><dd><p>a token (word or phrase)</p></dd>
+    <dt>lemma</dt><dd><p>a lemma of <code>token</code></p></dd>
+    <dt>regex</dt><dd><p>regular expression for all word forms of the <code>token</code> (including "е-ё" dualism)</p></dd>
+    <dt>score</dt><dd><p>the sentiment score: from −2 (strongly negative) to +2 (strongly positive) with step 1</p></dd>
 
 </dl>
 
-    <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
-
-    <p><a href='http://linis-crowd.org/static/dictionary_documents.zip'>http://linis-crowd.org/static/dictionary_documents.zip</a></p>
     <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
 
-    <p>The lexicon is aimed at detecting sentiment in blogs and social media related to social and political issues.
-Words sentiment scores assessed by volunteers (at least three).</p>
+    <p>The dictionary includes the thematic groups as following:</p>
+<p>Общеэкономическое; Макроэкономика; Международная экономика, торговля и финансы; Монетарная политика, валюта, деньги и кредит, банки; Государственные финансы, бюджет и налоги; Фондовые и товарные рынки; Маркетинг и реклама; Корпоративные финансы и управление, фирма, бухгалтерский учет, нематериальные активы; Социальная ответственность, благотворительность, спонсорская деятельность, экология; Потребление и розничная торговля; Реальный сектор экономики (производство, промышленность, добыча); Инновации
+.</p>
     <h2 class="hasAnchor" id="license"><a class="anchor" href="#license"></a>License</h2>
 
     
 
-<p>According to "LINIS Crowd SENT" project web-site (<a href='http://linis-crowd.org'>http://linis-crowd.org</a>) the dictionary
-are published under Creative Commons "Attribution-NonCommercial-ShareAlike" 4.0 International (CC BY-NC-SA 4.0).
-Additional permissions can be accessed  here: <a href='http://www.linis-crowd.org/contacts/'>http://www.linis-crowd.org/contacts/</a>.</p>
+<p>The dictionary is published under Creative Commons "Attribution-NonCommercial-ShareAlike" 4.0 International License (CC BY-NC-SA 4.0).
+For additional permissions (including the commercial use) please contact to Elena Fedorova &lt;ecolena@mail.ru&gt;.</p>
     <h2 class="hasAnchor" id="references"><a class="anchor" href="#references"></a>References</h2>
 
-    <p>Koltsova, O.Yu., Alexeeva, S.V., Kolcov S.N., 2016. An opinion word lexicon and a training dataset for Russian sentiment analysis of social media. Computational Linguistics and Intellectual Technologies: Proceedings of the International Conference "Dialogue 2016". URL: <a href='http://www.dialog-21.ru/media/3400/koltsovaoyuetal.pdf'>http://www.dialog-21.ru/media/3400/koltsovaoyuetal.pdf</a></p>
+    
+
+
 
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
