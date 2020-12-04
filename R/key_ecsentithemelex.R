@@ -1,4 +1,4 @@
-#' Sentiment-Thematic Dictionary of Economic Terms - EcSentiThemeLex.
+#' Sentiment-Thematic Dictionary of Economic Terms - EcSentiThemeLex
 #'
 #'  A dataset containing the lexicon EcSentiThemeLex - the dictionary of economic, financial and legal terms for which a thematic group(s)
 #'  and sentiment score (polarity) were defined. The dictionary builded by Fedorova, Afanasyev, Demin and a group of bachelor.

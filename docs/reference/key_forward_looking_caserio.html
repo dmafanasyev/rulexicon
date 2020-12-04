@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Polarity Table of Chen and Skiena (2014) Lexicon Multilingualsentiment — hash_sentiment_chen_skiena • rulexicon</title>
+<title>Dictionary of Forward-Looking Disclosures of Caserio — key_forward_looking_caserio • rulexicon</title>
 
 <!-- favicons -->
 <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -46,10 +46,10 @@
 
 
 
-<meta property="og:title" content="Polarity Table of Chen and Skiena (2014) Lexicon Multilingualsentiment — hash_sentiment_chen_skiena" />
-<meta property="og:description" content="The polarity table of Chen and Skiena's (2014) lexicon Multilingualsentiment.
- Table contains 2876
- words with non-neutral sentiment scores." />
+<meta property="og:title" content="Dictionary of Forward-Looking Disclosures of Caserio — key_forward_looking_caserio" />
+<meta property="og:description" content="A dataset containing the dictionary (taxonomy) for forward-looking disclosures estimation based on Caserio words list, augmented by Fedorova et al.
+ Table contains 374
+ words and phrases." />
 <meta property="og:image" content="/logo.png" />
 
 
@@ -131,51 +131,46 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Polarity Table of Chen and Skiena (2014) Lexicon Multilingualsentiment</h1>
-    <small class="dont-index">Source: <a href='https://github.com/dmafanasyev/rulexicon/blob/master/R/hash_sentiment_chen_skiena.R'><code>R/hash_sentiment_chen_skiena.R</code></a></small>
-    <div class="hidden name"><code>hash_sentiment_chen_skiena.Rd</code></div>
+    <h1>Dictionary of Forward-Looking Disclosures of Caserio</h1>
+    <small class="dont-index">Source: <a href='https://github.com/dmafanasyev/rulexicon/blob/master/R/key_forward_looking_caserio.R'><code>R/key_forward_looking_caserio.R</code></a></small>
+    <div class="hidden name"><code>key_forward_looking_caserio.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>The polarity table of Chen and Skiena's (2014) lexicon Multilingualsentiment.
- Table contains 2876
- words with non-neutral sentiment scores.</p>
+    <p>A dataset containing the dictionary (taxonomy) for forward-looking disclosures estimation based on Caserio words list, augmented by Fedorova et al.
+ Table contains 374
+ words and phrases.</p>
     </div>
 
-    <pre class="usage"><span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span>(<span class='no'>hash_sentiment_chen_skiena</span>)</pre>
+    <pre class="usage"><span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span>(<span class='no'>key_forward_looking_caserio</span>)</pre>
 
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>A data table with 2876
- rows and
-2
+    <p>A data frame with 374
+ rows
+and 2
  variables:</p><dl'>
-    <dt>token</dt><dd><p>the textual token (word or phrase)</p></dd>
-    <dt>score</dt><dd><p>the sentiment score: −1 for negative, 1 for positive</p></dd>
+    <dt>token</dt><dd><p>token (word of phrase)</p></dd>
+    <dt>lemma</dt><dd><p>a base form or lemma of the <code>token</code></p></dd>
 
 </dl>
 
-    <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
-
-    <p><a href='http://bit.ly/1iwOMZb'>http://bit.ly/1iwOMZb</a> - negative words list, <a href='http://bit.ly/1rAqgfb'>http://bit.ly/1rAqgfb</a> - positive words list</p>
     <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
 
-    <p>The lexicon was builded on the basis of knowledge graph that connect words in different languages
-(based on Wiktionary, Google Translate, transliteration links and WordNet). The authors provide two data files:
-one for negative and one for positive words. This polarity table is a joined list after deletion of some artifacts
-(36 words in English for which however the translations are in data files).</p>
+    <p>The dictionary is based on Caserio and augmented by Fedorova et al. by manual processing of forward-looking words
+from 636 press re-leases of Russian companies. This dictionary allows to estimate the degree of forward-looking statements
+that may affects the future results of the company and the reaction of the market.</p>
     <h2 class="hasAnchor" id="license"><a class="anchor" href="#license"></a>License</h2>
 
     
 
-<p>The lexicon is distributed under the GNU General Public License (v3 or later). The authors note that this is the full GPL,
-which allows many free uses, but does not allow its incorporation into any type of distributed proprietary software,
-even in part or in translation. For commercial applications please contact the lexicon creators.</p>
+<p>The dictionary is published under Creative Commons "Attribution-NonCommercial-ShareAlike" 4.0 International License (CC BY-NC-SA 4.0).
+For additional permissions (including the commercial use) please contact to Elena Fedorova &lt;ecolena@mail.ru&gt;.</p>
     <h2 class="hasAnchor" id="references"><a class="anchor" href="#references"></a>References</h2>
 
-    <p>Chen, Y., Skiena, S., 2014. Building Sentiment Lexicons for All Major Languages. In Proceedings of 52nd Annual Meeting of the Association for Computational Linguistics, pp. 383-389.</p>
-<p>Multilingualsentiment project web-page: <a href='https://sites.google.com/site/datascienceslab/projects/multilingualsentiment'>https://sites.google.com/site/datascienceslab/projects/multilingualsentiment</a></p>
+    <p>Caserio, C., Panaro, D. and Trucco, S. (2019). Management discussion and analysis: a tone analysis on US financial listed companies.
+Management Decision 58 (3), pp. 510-525.</p>
 
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">

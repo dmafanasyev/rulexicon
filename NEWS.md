@@ -1,3 +1,10 @@
+# rulexicon 0.1.5 (2020-12-05)
+
+## New Features
+The following dictionary was added:
+
+* `key_forward_looking_caserio` - Dictionary of Forward-Looking Disclosures of Caserio
+
 # rulexicon 0.1.4 (2020-05-24)
 
 ## New Features

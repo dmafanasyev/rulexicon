@@ -3,7 +3,7 @@
 \docType{data}
 \name{key_ecsentithemelex}
 \alias{key_ecsentithemelex}
-\title{Sentiment-Thematic Dictionary of Economic Terms - EcSentiThemeLex.}
+\title{Sentiment-Thematic Dictionary of Economic Terms - EcSentiThemeLex}
 \format{
 A data frame with \Sexpr{nrow(rulexicon::key_ecsentithemelex)} rows
 and \Sexpr{ncol(rulexicon::key_ecsentithemelex)} variables:
