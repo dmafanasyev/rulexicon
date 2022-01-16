@@ -158,6 +158,14 @@ A <code>data.table</code> of terms with frequencies
 
 </tr>
 
+<tr class="even">
+
+<td><code>\_en</code></td>
+
+<td>An English version of dictionary</td>
+
+</tr>
+
 </tbody>
 
 </table>
@@ -172,7 +180,7 @@ install.packages("rulexicon")
 ```
 -->
 
-You can install the development version from
+You can install this package from 
 [GitHub](https://github.com/) with:
 
 ``` r

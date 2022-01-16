@@ -62,7 +62,7 @@ The naming convention based on the idea of [lexicon](https://github.com/cran/lex
     <td><code>freq_</code></td>
     <td>A <code>data.table</code> of terms with frequencies</td>
   </tr>
-  <tr class="odd">
+  <tr class="even">
     <td><code>_en</code></td>
     <td>An English version of dictionary</td>
   </tr>
@@ -80,7 +80,7 @@ install.packages("rulexicon")
 ```
 -->
 
-You can install the package from [GitHub](https://github.com/) with:
+You can install this package from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
