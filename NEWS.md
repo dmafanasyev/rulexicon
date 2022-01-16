@@ -1,3 +1,13 @@
+# rulexicon 0.1.6 (2022-01-16)
+
+## New Features
+The following dictionaries was added:
+
+* `key_innov_activ` - Dictionary of innovation activities disclosure
+* `key_innov_activ_en` - Dictionary of innovation activities disclosure of Garechana et al. and Libaers et al.
+* `key_innov_activ_oecd` - Dictionary of innovation activities disclosure by OECD types of innovations
+* `key_innov_activ_oecd_en` - Dictionary of innovation activities disclosure by OECD types of innovations (English)
+
 # rulexicon 0.1.5 (2020-12-05)
 
 ## New Features
