@@ -8,9 +8,11 @@ Maintainer: Dmitriy O. Afanasyev <dmafanasyev@gmail.com>
 Authors@R: c(
     person("Dmitriy O.", "Afanasyev", email = "dmafanasyev@gmail.com", role = c("aut", "cre", "dtc", "cph"), comment = c(ORCID = "0000-0003-1692-5166")),
     person("Elena A.", "Fedorova", email = "ecolena@mail.ru", role = c("dtc", "cph"), comment = c(ORCID = "0000-0002-3381-6116")),
+    person("Tyler W.", "Rinker", email = "tyler.rinker@gmail.com", role = c("dtc", "cph")),
     person("Igor S.", "Demin", role = c("dtc", "cph")),
     person("Lubov H.", "Khrustova", role = c("dtc", "cph"), comment = c(ORCID = "0000-0002-0884-2734")),
     person("Uliya I.", "Grishenko", role = c("dtc", "cph")),
+    person("Ilya V.", "Pyltsin", email = "ilya.pyltsin@gmail.com", role = c("dtc", "cph")),
     person("Sergei", "Koltcov (LINIS Crowd SENT)", role = c("dtc", "cph")),
     person("Olessia", "Koltsova (LINIS Crowd SENT)", role = c("dtc", "cph")),
     person("Svetlana", "Alexeeva (LINIS Crowd SENT)", role = c("dtc", "cph")),

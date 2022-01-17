@@ -30,4 +30,7 @@
 #' For additional permissions (including the commercial use) please contact to Elena Fedorova <ecolena@mail.ru>.
 #'
 #' @references
+#' Fedorova, E., Afanasyev, D., Demin, I., Lazarev, A., Nersesyan, R., Pyltsin, I.V. (2020).
+#' Development of a tonal-thematic dictionary EcSentiThemeLex for the analysis of economic texts in Russian.
+#' Journal of Applied Informatics, 6 (15), 58–77. DOI: \url{https://doi.org/10.37791/2687-0649-2020-15-6-58-77}.
 NULL

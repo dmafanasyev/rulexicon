@@ -32,8 +32,9 @@ rsconnect/
 # RAW data directory
 data-raw/
 # pkgdown website config and temporary files directory
-_pkgdown.yml
+#_pkgdown.yml
 /pkgdown
+docs
 # Package build ignore rules
 .Rbuildignore
 # R environment variables
