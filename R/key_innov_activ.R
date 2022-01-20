@@ -19,7 +19,7 @@
 #' @details
 #' The dictionary enables to estimate the level of innovation disclosure in companies’ annual reports.
 #' Lexicons from Garechana et al. 2017 and Libaers et al. 2016 were used as a basis. In addition,
-#' after thorough examination of annual reports of 94 Russian publicly traded companies for the period 2013-2019,
+#' after thorough examination of annual reports of 74 Russian publicly traded companies for the period 2013-2019,
 #' through expert analysis some more words related to innovation as well as synonyms to these words were added by Fedorova et al.
 #' (including universal regular expression).
 #'
