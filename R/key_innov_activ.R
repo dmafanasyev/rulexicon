@@ -1,4 +1,4 @@
-#' Dictionary of innovation activities disclosure
+#' Dictionary of Innovation Activities Disclosure
 #'
 #'  A dataset containing the dictionary (taxonomy) for innovation activities disclosure estimation in
 #'  companies’ annual reports. Table contains \Sexpr{nrow(rulexicon::key_innov_activ)} words and phrases.

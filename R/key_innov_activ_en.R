@@ -1,4 +1,4 @@
-#' Dictionary of innovation activities disclosure of Garechana et al. and Libaers et al.
+#' Dictionary of Innovation Activities Disclosure of Garechana et al. and Libaers et al. (English)
 #'
 #'  A dataset containing the dictionary (taxonomy) for innovation activities disclosure estimation in
 #'  companies’ annual reports based on lexicons from Garechana et al. (2017) and Libaers et al. (2016).

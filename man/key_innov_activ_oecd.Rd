@@ -3,7 +3,7 @@
 \docType{data}
 \name{key_innov_activ_oecd}
 \alias{key_innov_activ_oecd}
-\title{Dictionary of innovation activities disclosure by OECD types of innovations}
+\title{Dictionary of Innovation Activities Disclosure by OECD Types of Innovations}
 \format{
 A data frame with \Sexpr{nrow(rulexicon::key_innov_activ_oecd)} rows
 and \Sexpr{ncol(rulexicon::key_innov_activ_oecd)} variables:

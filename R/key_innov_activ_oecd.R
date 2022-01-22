@@ -1,4 +1,4 @@
-#' Dictionary of innovation activities disclosure by OECD types of innovations
+#' Dictionary of Innovation Activities Disclosure by OECD Types of Innovations
 #'
 #'  A dataset containing the dictionary (taxonomy) for innovation activities disclosure estimation in companies’ annual reports
 #'  according to the OECD Oslo Manual's innovation types.The dictionary builded by Fedorova et al.

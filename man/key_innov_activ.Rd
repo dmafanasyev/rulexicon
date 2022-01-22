@@ -3,7 +3,7 @@
 \docType{data}
 \name{key_innov_activ}
 \alias{key_innov_activ}
-\title{Dictionary of innovation activities disclosure}
+\title{Dictionary of Innovation Activities Disclosure}
 \format{
 A data frame with \Sexpr{nrow(rulexicon::key_innov_activ)} rows
 and \Sexpr{ncol(rulexicon::key_innov_activ)} variables:
@@ -23,7 +23,7 @@ A dataset containing the dictionary (taxonomy) for innovation activities disclos
 \details{
 The dictionary enables to estimate the level of innovation disclosure in companies’ annual reports.
 Lexicons from Garechana et al. 2017 and Libaers et al. 2016 were used as a basis. In addition,
-after thorough examination of annual reports of 94 Russian publicly traded companies for the period 2013-2019,
+after thorough examination of annual reports of 74 Russian publicly traded companies for the period 2013-2019,
 through expert analysis some more words related to innovation as well as synonyms to these words were added by Fedorova et al.
 (including universal regular expression).
 }

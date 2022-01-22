@@ -1,12 +1,19 @@
+# rulexicon 0.1.7 (2022-01-22)
+
+## New Features
+The following dictionary was added:
+
+* `key_climate_change` - Dictionary of Climate Change Disclosures of Fedorova and Martynova
+
 # rulexicon 0.1.6 (2022-01-16)
 
 ## New Features
-The following dictionaries was added:
+The following dictionaries were added:
 
-* `key_innov_activ` - Dictionary of innovation activities disclosure
-* `key_innov_activ_en` - Dictionary of innovation activities disclosure of Garechana et al. and Libaers et al.
-* `key_innov_activ_oecd` - Dictionary of innovation activities disclosure by OECD types of innovations
-* `key_innov_activ_oecd_en` - Dictionary of innovation activities disclosure by OECD types of innovations (English)
+* `key_innov_activ` - Dictionary of Innovation Activities Disclosure
+* `key_innov_activ_en` - Dictionary of Innovation Activities Disclosure of Garechana et al. and Libaers et al. (English)
+* `key_innov_activ_oecd` - Dictionary of Innovation Activities Disclosure by OECD Types of Innovations
+* `key_innov_activ_oecd_en` - Dictionary of Innovation Activities Disclosure by OECD Types of Innovations (English)
 
 # rulexicon 0.1.5 (2020-12-05)
 

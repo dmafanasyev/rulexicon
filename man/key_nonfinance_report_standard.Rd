@@ -51,7 +51,8 @@ For additional permissions (including the commercial use) please contact to Elen
 }
 
 \references{
-Fedorova, E.A., Khrustova, L.E., Demin I.S. (2020). The impact of the completeness of non-financial information disclosure by Russian companies
-on investment attractiveness. Russian Management Journal 18(1). Forthcoming.
+Fedorova, E.A., Khrustova, L.E., Demin I.S. (2020). Completeness of disclosure of non-financial information by Russian companies:
+impact on investment attractiveness. Russian Management Journal 18(1), p. 51-72.
+DOI: \url{https://doi.org/10.21638/spbu18.2020.103}.
 }
 \keyword{datasets}
