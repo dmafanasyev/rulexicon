@@ -1,3 +1,6 @@
 url: https://dmafanasyev.github.io/rulexicon/
 template:
   bootstrap: 5
+  bootswatch: flatly
+  bslib:
+    link-color: "#306cc9"
