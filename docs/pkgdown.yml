@@ -2,5 +2,8 @@ pandoc: 2.16.1
 pkgdown: 2.0.2
 pkgdown_sha: ~
 articles: {}
-last_built: 2022-01-23T08:52Z
+last_built: 2022-01-23T09:06Z
+urls:
+  reference: https://dmafanasyev.github.io/rulexicon/reference
+  article: https://dmafanasyev.github.io/rulexicon/articles
 
