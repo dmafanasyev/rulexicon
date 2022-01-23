@@ -3,7 +3,7 @@
 \docType{data}
 \name{key_climate_change}
 \alias{key_climate_change}
-\title{Dictionary of Climate Change Disclosures of Fedorova and Martynova}
+\title{Dictionary of Climate Change Disclosure of Fedorova and Martynova}
 \format{
 A data frame with \Sexpr{nrow(rulexicon::key_climate_change)} rows
 and \Sexpr{ncol(rulexicon::key_climate_change)} variables:
@@ -18,14 +18,15 @@ Intergovernmental Panel on Climate Change's Glossary: \url{https://www.ipcc.ch/s
 World Bank Group's Glossary: \url{https://climateknowledgeportal.worldbank.org/media/document/CCKP_glossary.pdf}
 
 Кокорин А.О., Липка О.Н., Суляндзига Р.В. Изменение климата. Глоссарий терминов, используемых в работе РКИК ООН. WWF России,
-Москва, 2015 г., 92 с.
+Москва, 2015 г., 92 с. URL: \url{https://wwf.ru/upload/iblock/509/wwf_glossary_web.pdf}.
 }
 \usage{
 data(key_climate_change)
 }
 \description{
-A dataset containing the dictionary (taxonomy) for climate change disclosures estimation based on three climate glossaries
- augmented by Fedorova E. and Martynova M. Table contains \Sexpr{nrow(rulexicon::key_climate_change)} words and phrases.
+A dataset containing the dictionary (taxonomy) for climate change disclosures estimation based
+ on three climate glossaries compiled and augmented by Fedorova E. and Martynova M.
+ Table contains \Sexpr{nrow(rulexicon::key_climate_change)} words and phrases.
 }
 \details{
 The dictionary is based on climate glossaries from three sources (Intergovernmental Panel on Climate Change,
@@ -36,8 +37,8 @@ that may be useful for revealing the company’s concerns and actions over one o
 }
 \section{License}{
 
-The dictionary is published under Creative Commons "Attribution-NonCommercial-ShareAlike" 4.0 International License (CC BY-NC-SA 4.0).
-For additional permissions (including the commercial use) please contact to Elena Fedorova <ecolena@mail.ru>.
+The dictionary is published under Creative Commons "Attribution-NonCommercial-ShareAlike" 4.0 International License
+(CC BY-NC-SA 4.0). For additional permissions (including the commercial use) please contact to Elena Fedorova <ecolena@mail.ru>.
 }
 
 \references{

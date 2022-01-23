@@ -34,7 +34,6 @@ data-raw/
 # pkgdown website config and temporary files directory
 #_pkgdown.yml
 /pkgdown
-docs
 # Package build ignore rules
 .Rbuildignore
 # R environment variables

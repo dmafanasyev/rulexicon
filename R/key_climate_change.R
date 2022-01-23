@@ -1,7 +1,8 @@
-#' Dictionary of Climate Change Disclosures of Fedorova and Martynova
+#' Dictionary of Climate Change Disclosure of Fedorova and Martynova
 #'
-#'  A dataset containing the dictionary (taxonomy) for climate change disclosures estimation based on three climate glossaries
-#'  augmented by Fedorova E. and Martynova M. Table contains \Sexpr{nrow(rulexicon::key_climate_change)} words and phrases.
+#'  A dataset containing the dictionary (taxonomy) for climate change disclosures estimation based
+#'  on three climate glossaries compiled and augmented by Fedorova E. and Martynova M.
+#'  Table contains \Sexpr{nrow(rulexicon::key_climate_change)} words and phrases.
 #'
 #' @docType data
 #' @name key_climate_change
@@ -23,8 +24,8 @@
 #' that may be useful for revealing the company’s concerns and actions over one of the thorniest issues in the society.
 #'
 #' @section License:
-#' The dictionary is published under Creative Commons "Attribution-NonCommercial-ShareAlike" 4.0 International License (CC BY-NC-SA 4.0).
-#' For additional permissions (including the commercial use) please contact to Elena Fedorova <ecolena@mail.ru>.
+#' The dictionary is published under Creative Commons "Attribution-NonCommercial-ShareAlike" 4.0 International License
+#' (CC BY-NC-SA 4.0). For additional permissions (including the commercial use) please contact to Elena Fedorova <ecolena@mail.ru>.
 #'
 #' @source
 #' Intergovernmental Panel on Climate Change's Glossary: \url{https://www.ipcc.ch/site/assets/uploads/2018/03/wg2TARannexB.pdf}
@@ -32,7 +33,7 @@
 #' World Bank Group's Glossary: \url{https://climateknowledgeportal.worldbank.org/media/document/CCKP_glossary.pdf}
 #'
 #' Кокорин А.О., Липка О.Н., Суляндзига Р.В. Изменение климата. Глоссарий терминов, используемых в работе РКИК ООН. WWF России,
-#' Москва, 2015 г., 92 с.
+#' Москва, 2015 г., 92 с. URL: \url{https://wwf.ru/upload/iblock/509/wwf_glossary_web.pdf}.
 #'
 #' @references
 #' Fedorova, E. and Martynova, M. (2021). Signalling and Legitimacy Theories for Explaining Climate Information Disclosure

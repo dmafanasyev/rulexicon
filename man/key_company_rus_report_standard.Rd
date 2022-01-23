@@ -46,7 +46,8 @@ For additional permissions (including the commercial use) please contact to Elen
 }
 
 \references{
-Fedorova, E.A., Grishenko, U.I., Demin I.S. (2020). The impact of the level of disclosure of mandatory non-financial information
-in the annual reports of public companies on the investment attractiveness of the issuer. Forthcoming.
+Fedorova, E., Y. Grishchenko, I. Demin, and E. Chernova (2020). Assessment of the Impact of the Level of Disclosure of
+Mandatory Non-Financial Information in Public Annual Reports on the Investment Attractiveness of a Company.
+Journal of Corporate Finance Research 14 (2), p. 22-34. DOI: \url{https://doi.org/10.17323/j.jcfr.2073-0438.14.2.2020.22-34}.
 }
 \keyword{datasets}

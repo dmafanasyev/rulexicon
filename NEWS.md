@@ -3,7 +3,7 @@
 ## New Features
 The following dictionary was added:
 
-* `key_climate_change` - Dictionary of Climate Change Disclosures of Fedorova and Martynova
+* `key_climate_change` - Dictionary of Climate Change Disclosure of Fedorova and Martynova
 
 # rulexicon 0.1.6 (2022-01-16)
 
@@ -20,7 +20,7 @@ The following dictionaries were added:
 ## New Features
 The following dictionary was added:
 
-* `key_forward_looking_caserio` - Dictionary of Forward-Looking Disclosures of Caserio
+* `key_forward_looking_caserio` - Dictionary of Forward-Looking Statements of Caserio
 
 # rulexicon 0.1.4 (2020-05-24)
 
