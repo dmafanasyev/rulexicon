@@ -1,3 +1,10 @@
+# rulexicon 1.1.0 (2022-01-23)
+
+## New Features
+The following dictionary was added:
+
+* `key_countries` - Countries Dictionary
+
 # rulexicon 1.0.0 (2022-01-23)
 
 After nearly two years of collecting and developing various Russian lexicons, polarity tables, stop words lists, lemmatization tables and etc. for text analysis, version 1.0.0 was assigned to the package. In the future, the version number will change in accordance with the recommendations described [here](https://r-pkgs.org/release.html#release-version), as well as the following rules:
