@@ -1,6 +1,6 @@
 # rulexicon 1.0.0 (2022-01-23)
 
-After nearly two years of collecting and developing various Russian lexicons, polarity tables, stop words lists, lemmatization tables and etc. for text analysis, version 1.0.0 was assigned to the package. In the future, the version number will change in accordance with the recommendations described at \url{https://r-pkgs.org/release.html#release-version}, as well as the following rules:
+After nearly two years of collecting and developing various Russian lexicons, polarity tables, stop words lists, lemmatization tables and etc. for text analysis, version 1.0.0 was assigned to the package. In the future, the version number will change in accordance with the recommendations described [here](https://r-pkgs.org/release.html#release-version), as well as the following rules:
 
 * the major version (X.00.00) will increase after a sufficiently large number of new dictionaries are accumulated in the package or any other significant changes are made
 * the minor version (0.XX.00) will increase after each new dictionary is added
